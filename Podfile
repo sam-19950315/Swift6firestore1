@@ -11,6 +11,8 @@ target 'Swift6firestore1' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'EMAlertController'
+  pod 'Charts'
+
 
 
 end

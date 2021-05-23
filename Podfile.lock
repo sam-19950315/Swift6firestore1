@@ -218,6 +218,9 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.7):
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Interface (0.0.7)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
   - EMAlertController (1.0.2)
   - Firebase (8.0.0):
     - Firebase/Core (= 8.0.0)
@@ -360,6 +363,7 @@ PODS:
   - PromisesObjC (1.2.12)
 
 DEPENDENCIES:
+  - Charts
   - EMAlertController
   - Firebase
   - Firebase/Auth
@@ -369,6 +373,7 @@ SPEC REPOS:
   trunk:
     - abseil
     - BoringSSL-GRPC
+    - Charts
     - EMAlertController
     - Firebase
     - FirebaseAnalytics
@@ -390,6 +395,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   EMAlertController: 471e4630309e5ae843ef71f502d6b58525b22c60
   Firebase: 73c3e3b216ec1ecbc54d2ffdd4670c65c749edb1
   FirebaseAnalytics: dcb92c7c9ef4fa7ffac276e8f87bd4fc8c97f1b8
@@ -408,6 +414,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: 7ac262f166c741990e6fc067f6b18b76693702c9
+PODFILE CHECKSUM: eda0407b836d6f98f7d33a485e8cf0bd60c99d74
 
 COCOAPODS: 1.10.1
