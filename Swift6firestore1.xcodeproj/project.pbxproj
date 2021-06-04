@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17D46FBE7C1DA6A43AA250B8 /* Pods_Swift6firestore1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E496EE5F8AB6C901BB49EF /* Pods_Swift6firestore1.framework */; };
+		182DF6F92657DCD900C06891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF6F82657DCD900C06891 /* AppDelegate.swift */; };
+		182DF6FB2657DCD900C06891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF6FA2657DCD900C06891 /* SceneDelegate.swift */; };
+		182DF6FD2657DCD900C06891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF6FC2657DCD900C06891 /* ViewController.swift */; };
+		182DF7022657DCDB00C06891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182DF7012657DCDB00C06891 /* Assets.xcassets */; };
+		182DF7052657DCDB00C06891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182DF7032657DCDB00C06891 /* LaunchScreen.storyboard */; };
+		182DF70E2657DD9D00C06891 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF70D2657DD9D00C06891 /* LoginViewController.swift */; };
+		182DF7102657DFBA00C06891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */; };
+		182DF7122659282500C06891 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF7112659282500C06891 /* SignInViewController.swift */; };
+		1843A2232661AA6F00AE9D5D /* TableViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2222661AA6F00AE9D5D /* TableViewScaleFitModel.swift */; };
+		1843A2252661E95D00AE9D5D /* ViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2242661E95D00AE9D5D /* ViewScaleFitModel.swift */; };
+		1843A2292662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2282662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift */; };
+		1843A2302662FF0600AE9D5D /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A22F2662FF0600AE9D5D /* TeacherViewController.swift */; };
+		1843A2342663030100AE9D5D /* TeacherNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2332663030100AE9D5D /* TeacherNextViewController.swift */; };
+		1843A2362663031500AE9D5D /* TeacherTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2352663031500AE9D5D /* TeacherTheAnswerViewController.swift */; };
+		1843A2382663B11900AE9D5D /* NextViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2372663B11900AE9D5D /* NextViewScaleFitModel.swift */; };
+		1843A23C26645F1B00AE9D5D /* MedicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A23B26645F1B00AE9D5D /* MedicalViewController.swift */; };
+		1843A23F26645F4400AE9D5D /* MedicalNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A23E26645F4400AE9D5D /* MedicalNextViewController.swift */; };
+		1843A24126645F6900AE9D5D /* MedicalTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A24026645F6900AE9D5D /* MedicalTheAnswerViewController.swift */; };
+		1843A2482666333100AE9D5D /* GardenNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2472666333100AE9D5D /* GardenNextViewController.swift */; };
+		1843A24A2666334E00AE9D5D /* GardenTheAnswerViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2492666334E00AE9D5D /* GardenTheAnswerViewControllerViewController.swift */; };
+		1843A24C266635FD00AE9D5D /* gardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A24B266635FD00AE9D5D /* gardenViewController.swift */; };
+		1843A24E266667D900AE9D5D /* CarpenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A24D266667D900AE9D5D /* CarpenterViewController.swift */; };
+		1843A250266667EF00AE9D5D /* CarpenterNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A24F266667EF00AE9D5D /* CarpenterNextViewController.swift */; };
+		1843A2522666681800AE9D5D /* CarpenterTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2512666681800AE9D5D /* CarpenterTheAnswerViewController.swift */; };
+		1843A2542667082700AE9D5D /* FurnitureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2532667082700AE9D5D /* FurnitureViewController.swift */; };
+		1843A2562667083B00AE9D5D /* FurnitureNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2552667083B00AE9D5D /* FurnitureNextViewController.swift */; };
+		1843A2582667085300AE9D5D /* FurnitureTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2572667085300AE9D5D /* FurnitureTheAnswerViewController.swift */; };
+		1843A25B266710AF00AE9D5D /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A25A266710AF00AE9D5D /* ToolViewController.swift */; };
+		1843A25F2667111600AE9D5D /* AthleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A25E2667111600AE9D5D /* AthleteViewController.swift */; };
+		1843A2612667112600AE9D5D /* AthleteNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2602667112600AE9D5D /* AthleteNextViewController.swift */; };
+		1843A2632667113F00AE9D5D /* AthleteTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2622667113F00AE9D5D /* AthleteTheAnswerViewController.swift */; };
+		1843A2652667115B00AE9D5D /* RefereeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2642667115B00AE9D5D /* RefereeViewController.swift */; };
+		1843A2672667116E00AE9D5D /* RefereeNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2662667116E00AE9D5D /* RefereeNextViewController.swift */; };
+		1843A2692667117D00AE9D5D /* RefereeTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2682667117D00AE9D5D /* RefereeTheAnswerViewController.swift */; };
+		1843A26B2667119100AE9D5D /* ToolNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A26A2667119100AE9D5D /* ToolNextViewController.swift */; };
+		1843A26D266711A400AE9D5D /* ToolTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A26C266711A400AE9D5D /* ToolTheAnswerViewController.swift */; };
+		1843A26F2667A4A200AE9D5D /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A26E2667A4A100AE9D5D /* BookViewController.swift */; };
+		1843A2722667A4C200AE9D5D /* BookNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2712667A4C200AE9D5D /* BookNextViewController.swift */; };
+		1843A2742667A4D600AE9D5D /* BookTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2732667A4D600AE9D5D /* BookTheAnswerViewController.swift */; };
+		1843A2762667A50600AE9D5D /* ApparellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2752667A50600AE9D5D /* ApparellViewController.swift */; };
+		1843A2792667A51E00AE9D5D /* ApparellNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2782667A51E00AE9D5D /* ApparellNextViewController.swift */; };
+		1843A27B2667A52F00AE9D5D /* ApparellTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A27A2667A52F00AE9D5D /* ApparellTheAnswerViewController.swift */; };
+		1843A27D2667A57800AE9D5D /* ToyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A27C2667A57800AE9D5D /* ToyViewController.swift */; };
+		1843A2802667A59800AE9D5D /* ToyNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A27F2667A59800AE9D5D /* ToyNextViewController.swift */; };
+		1843A2822667A5A600AE9D5D /* ToyTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2812667A5A600AE9D5D /* ToyTheAnswerViewController.swift */; };
+		185E9654265A001900D5A71B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9653265A001900D5A71B /* TopViewController.swift */; };
+		185E9656265C871C00D5A71B /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9655265C871C00D5A71B /* SchoolViewController.swift */; };
+		185E9658265C873800D5A71B /* DepartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9657265C873800D5A71B /* DepartViewController.swift */; };
+		185E965A265C875200D5A71B /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9659265C875200D5A71B /* SportsViewController.swift */; };
+		185E965C265C87D600D5A71B /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E965B265C87D600D5A71B /* HouseViewController.swift */; };
+		185E9660265C98BA00D5A71B /* SheffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E965F265C98BA00D5A71B /* SheffViewController.swift */; };
+		18820B6B265C9B1400ECC597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18820B6A265C9B1400ECC597 /* Main.storyboard */; };
+		18820B6D265CBA0000ECC597 /* ShefNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B6C265CBA0000ECC597 /* ShefNextViewController.swift */; };
+		18820B6F265CF08900ECC597 /* SheffTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B6E265CF08900ECC597 /* SheffTheAnswerViewController.swift */; };
+		18820B72265CFC6600ECC597 /* SendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B71265CFC6600ECC597 /* SendModel.swift */; };
+		18820B74265DBC0200ECC597 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B73265DBC0200ECC597 /* QuizModel.swift */; };
+		18820B76265DD54A00ECC597 /* QuizList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B75265DD54A00ECC597 /* QuizList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		182DF6F52657DCD900C06891 /* Swift6firestore1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift6firestore1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182DF6F82657DCD900C06891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182DF6FA2657DCD900C06891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		182DF6FC2657DCD900C06891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182DF7012657DCDB00C06891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182DF7042657DCDB00C06891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182DF7062657DCDB00C06891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182DF70D2657DD9D00C06891 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		182DF7112659282500C06891 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1843A2222661AA6F00AE9D5D /* TableViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewScaleFitModel.swift; sourceTree = "<group>"; };
+		1843A2242661E95D00AE9D5D /* ViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewScaleFitModel.swift; sourceTree = "<group>"; };
+		1843A2282662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAnswerViewScaleFitModel.swift; sourceTree = "<group>"; };
+		1843A22F2662FF0600AE9D5D /* TeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
+		1843A2332663030100AE9D5D /* TeacherNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNextViewController.swift; sourceTree = "<group>"; };
+		1843A2352663031500AE9D5D /* TeacherTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A2372663B11900AE9D5D /* NextViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewScaleFitModel.swift; sourceTree = "<group>"; };
+		1843A23B26645F1B00AE9D5D /* MedicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalViewController.swift; sourceTree = "<group>"; };
+		1843A23E26645F4400AE9D5D /* MedicalNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalNextViewController.swift; sourceTree = "<group>"; };
+		1843A24026645F6900AE9D5D /* MedicalTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A2472666333100AE9D5D /* GardenNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenNextViewController.swift; sourceTree = "<group>"; };
+		1843A2492666334E00AE9D5D /* GardenTheAnswerViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenTheAnswerViewControllerViewController.swift; sourceTree = "<group>"; };
+		1843A24B266635FD00AE9D5D /* gardenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gardenViewController.swift; sourceTree = "<group>"; };
+		1843A24D266667D900AE9D5D /* CarpenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpenterViewController.swift; sourceTree = "<group>"; };
+		1843A24F266667EF00AE9D5D /* CarpenterNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpenterNextViewController.swift; sourceTree = "<group>"; };
+		1843A2512666681800AE9D5D /* CarpenterTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpenterTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A2532667082700AE9D5D /* FurnitureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureViewController.swift; sourceTree = "<group>"; };
+		1843A2552667083B00AE9D5D /* FurnitureNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureNextViewController.swift; sourceTree = "<group>"; };
+		1843A2572667085300AE9D5D /* FurnitureTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A25A266710AF00AE9D5D /* ToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
+		1843A25E2667111600AE9D5D /* AthleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteViewController.swift; sourceTree = "<group>"; };
+		1843A2602667112600AE9D5D /* AthleteNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteNextViewController.swift; sourceTree = "<group>"; };
+		1843A2622667113F00AE9D5D /* AthleteTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A2642667115B00AE9D5D /* RefereeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefereeViewController.swift; sourceTree = "<group>"; };
+		1843A2662667116E00AE9D5D /* RefereeNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefereeNextViewController.swift; sourceTree = "<group>"; };
+		1843A2682667117D00AE9D5D /* RefereeTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefereeTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A26A2667119100AE9D5D /* ToolNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolNextViewController.swift; sourceTree = "<group>"; };
+		1843A26C266711A400AE9D5D /* ToolTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A26E2667A4A100AE9D5D /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		1843A2712667A4C200AE9D5D /* BookNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNextViewController.swift; sourceTree = "<group>"; };
+		1843A2732667A4D600AE9D5D /* BookTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A2752667A50600AE9D5D /* ApparellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApparellViewController.swift; sourceTree = "<group>"; };
+		1843A2782667A51E00AE9D5D /* ApparellNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApparellNextViewController.swift; sourceTree = "<group>"; };
+		1843A27A2667A52F00AE9D5D /* ApparellTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApparellTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A27C2667A57800AE9D5D /* ToyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyViewController.swift; sourceTree = "<group>"; };
+		1843A27F2667A59800AE9D5D /* ToyNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyNextViewController.swift; sourceTree = "<group>"; };
+		1843A2812667A5A600AE9D5D /* ToyTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyTheAnswerViewController.swift; sourceTree = "<group>"; };
+		185E9653265A001900D5A71B /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		185E9655265C871C00D5A71B /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
+		185E9657265C873800D5A71B /* DepartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartViewController.swift; sourceTree = "<group>"; };
+		185E9659265C875200D5A71B /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		185E965B265C87D600D5A71B /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
+		185E965F265C98BA00D5A71B /* SheffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheffViewController.swift; sourceTree = "<group>"; };
+		18820B6A265C9B1400ECC597 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18820B6C265CBA0000ECC597 /* ShefNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShefNextViewController.swift; sourceTree = "<group>"; };
+		18820B6E265CF08900ECC597 /* SheffTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheffTheAnswerViewController.swift; sourceTree = "<group>"; };
+		18820B71265CFC6600ECC597 /* SendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendModel.swift; sourceTree = "<group>"; };
+		18820B73265DBC0200ECC597 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		18820B75265DD54A00ECC597 /* QuizList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizList.swift; sourceTree = "<group>"; };
+		73E496EE5F8AB6C901BB49EF /* Pods_Swift6firestore1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift6firestore1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70A1653F19908BF3EDF158A /* Pods-Swift6firestore1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift6firestore1.debug.xcconfig"; path = "Target Support Files/Pods-Swift6firestore1/Pods-Swift6firestore1.debug.xcconfig"; sourceTree = "<group>"; };
+		D3DA23F6530DDC030A5A8BFD /* Pods-Swift6firestore1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift6firestore1.release.xcconfig"; path = "Target Support Files/Pods-Swift6firestore1/Pods-Swift6firestore1.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182DF6F22657DCD900C06891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D46FBE7C1DA6A43AA250B8 /* Pods_Swift6firestore1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEA2F71D181E0996B72E65B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A70A1653F19908BF3EDF158A /* Pods-Swift6firestore1.debug.xcconfig */,
+				D3DA23F6530DDC030A5A8BFD /* Pods-Swift6firestore1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		182DF6EC2657DCD900C06891 = {
+			isa = PBXGroup;
+			children = (
+				182DF6F72657DCD900C06891 /* Swift6firestore1 */,
+				182DF6F62657DCD900C06891 /* Products */,
+				0BEA2F71D181E0996B72E65B /* Pods */,
+				862FD1E8D979AD25566FFFB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		182DF6F62657DCD900C06891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182DF6F52657DCD900C06891 /* Swift6firestore1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182DF6F72657DCD900C06891 /* Swift6firestore1 */ = {
+			isa = PBXGroup;
+			children = (
+				18820B70265CFC5200ECC597 /* Model */,
+				182DF6F82657DCD900C06891 /* AppDelegate.swift */,
+				182DF6FA2657DCD900C06891 /* SceneDelegate.swift */,
+				1843A22E2662FEBE00AE9D5D /* View */,
+				182DF70C2657DD8200C06891 /* Controllers */,
+				182DF7012657DCDB00C06891 /* Assets.xcassets */,
+				182DF7062657DCDB00C06891 /* Info.plist */,
+				182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */,
+			);
+			path = Swift6firestore1;
+			sourceTree = "<group>";
+		};
+		182DF70C2657DD8200C06891 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				182DF6FC2657DCD900C06891 /* ViewController.swift */,
+				182DF70D2657DD9D00C06891 /* LoginViewController.swift */,
+				182DF7112659282500C06891 /* SignInViewController.swift */,
+				185E9653265A001900D5A71B /* TopViewController.swift */,
+				1843A22A2662FE7C00AE9D5D /* SchoolControllers */,
+				1843A22B2662FE8F00AE9D5D /* DepartControllers */,
+				1843A22C2662FE9A00AE9D5D /* SportsControllers */,
+				1843A22D2662FEA600AE9D5D /* HouseControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1843A22A2662FE7C00AE9D5D /* SchoolControllers */ = {
+			isa = PBXGroup;
+			children = (
+				185E9655265C871C00D5A71B /* SchoolViewController.swift */,
+				1843A2312662FF3900AE9D5D /* SheffControllers */,
+				1843A2322662FF5100AE9D5D /* TeacherControllers */,
+				1843A23D26645F2500AE9D5D /* MedicalControllers */,
+			);
+			path = SchoolControllers;
+			sourceTree = "<group>";
+		};
+		1843A22B2662FE8F00AE9D5D /* DepartControllers */ = {
+			isa = PBXGroup;
+			children = (
+				185E9657265C873800D5A71B /* DepartViewController.swift */,
+				1843A27E2667A58200AE9D5D /* Toy */,
+				1843A2772667A50D00AE9D5D /* Apparell */,
+				1843A2702667A4AF00AE9D5D /* Book */,
+			);
+			path = DepartControllers;
+			sourceTree = "<group>";
+		};
+		1843A22C2662FE9A00AE9D5D /* SportsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				185E9659265C875200D5A71B /* SportsViewController.swift */,
+				1843A25D266710CF00AE9D5D /* Athlete */,
+				1843A2592667107900AE9D5D /* Referee */,
+				1843A25C266710BF00AE9D5D /* Tool */,
+			);
+			path = SportsControllers;
+			sourceTree = "<group>";
+		};
+		1843A22D2662FEA600AE9D5D /* HouseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				185E965B265C87D600D5A71B /* HouseViewController.swift */,
+				1843A2442666328C00AE9D5D /* GardenControllers */,
+				1843A245266632AD00AE9D5D /* CarpenterControllers */,
+				1843A246266632CE00AE9D5D /* FurnitureControllers */,
+			);
+			path = HouseControllers;
+			sourceTree = "<group>";
+		};
+		1843A22E2662FEBE00AE9D5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				182DF7032657DCDB00C06891 /* LaunchScreen.storyboard */,
+				18820B6A265C9B1400ECC597 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1843A2312662FF3900AE9D5D /* SheffControllers */ = {
+			isa = PBXGroup;
+			children = (
+				185E965F265C98BA00D5A71B /* SheffViewController.swift */,
+				18820B6C265CBA0000ECC597 /* ShefNextViewController.swift */,
+				18820B6E265CF08900ECC597 /* SheffTheAnswerViewController.swift */,
+			);
+			path = SheffControllers;
+			sourceTree = "<group>";
+		};
+		1843A2322662FF5100AE9D5D /* TeacherControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1843A22F2662FF0600AE9D5D /* TeacherViewController.swift */,
+				1843A2332663030100AE9D5D /* TeacherNextViewController.swift */,
+				1843A2352663031500AE9D5D /* TeacherTheAnswerViewController.swift */,
+			);
+			path = TeacherControllers;
+			sourceTree = "<group>";
+		};
+		1843A23D26645F2500AE9D5D /* MedicalControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1843A23B26645F1B00AE9D5D /* MedicalViewController.swift */,
+				1843A23E26645F4400AE9D5D /* MedicalNextViewController.swift */,
+				1843A24026645F6900AE9D5D /* MedicalTheAnswerViewController.swift */,
+			);
+			path = MedicalControllers;
+			sourceTree = "<group>";
+		};
+		1843A2442666328C00AE9D5D /* GardenControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1843A24B266635FD00AE9D5D /* gardenViewController.swift */,
+				1843A2472666333100AE9D5D /* GardenNextViewController.swift */,
+				1843A2492666334E00AE9D5D /* GardenTheAnswerViewControllerViewController.swift */,
+			);
+			path = GardenControllers;
+			sourceTree = "<group>";
+		};
+		1843A245266632AD00AE9D5D /* CarpenterControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1843A24D266667D900AE9D5D /* CarpenterViewController.swift */,
+				1843A24F266667EF00AE9D5D /* CarpenterNextViewController.swift */,
+				1843A2512666681800AE9D5D /* CarpenterTheAnswerViewController.swift */,
+			);
+			path = CarpenterControllers;
+			sourceTree = "<group>";
+		};
+		1843A246266632CE00AE9D5D /* FurnitureControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1843A2532667082700AE9D5D /* FurnitureViewController.swift */,
+				1843A2552667083B00AE9D5D /* FurnitureNextViewController.swift */,
+				1843A2572667085300AE9D5D /* FurnitureTheAnswerViewController.swift */,
+			);
+			path = FurnitureControllers;
+			sourceTree = "<group>";
+		};
+		1843A2592667107900AE9D5D /* Referee */ = {
+			isa = PBXGroup;
+			children = (
+				1843A2642667115B00AE9D5D /* RefereeViewController.swift */,
+				1843A2662667116E00AE9D5D /* RefereeNextViewController.swift */,
+				1843A2682667117D00AE9D5D /* RefereeTheAnswerViewController.swift */,
+			);
+			path = Referee;
+			sourceTree = "<group>";
+		};
+		1843A25C266710BF00AE9D5D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1843A25A266710AF00AE9D5D /* ToolViewController.swift */,
+				1843A26A2667119100AE9D5D /* ToolNextViewController.swift */,
+				1843A26C266711A400AE9D5D /* ToolTheAnswerViewController.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1843A25D266710CF00AE9D5D /* Athlete */ = {
+			isa = PBXGroup;
+			children = (
+				1843A25E2667111600AE9D5D /* AthleteViewController.swift */,
+				1843A2602667112600AE9D5D /* AthleteNextViewController.swift */,
+				1843A2622667113F00AE9D5D /* AthleteTheAnswerViewController.swift */,
+			);
+			path = Athlete;
+			sourceTree = "<group>";
+		};
+		1843A2702667A4AF00AE9D5D /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				1843A26E2667A4A100AE9D5D /* BookViewController.swift */,
+				1843A2712667A4C200AE9D5D /* BookNextViewController.swift */,
+				1843A2732667A4D600AE9D5D /* BookTheAnswerViewController.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		1843A2772667A50D00AE9D5D /* Apparell */ = {
+			isa = PBXGroup;
+			children = (
+				1843A2752667A50600AE9D5D /* ApparellViewController.swift */,
+				1843A2782667A51E00AE9D5D /* ApparellNextViewController.swift */,
+				1843A27A2667A52F00AE9D5D /* ApparellTheAnswerViewController.swift */,
+			);
+			path = Apparell;
+			sourceTree = "<group>";
+		};
+		1843A27E2667A58200AE9D5D /* Toy */ = {
+			isa = PBXGroup;
+			children = (
+				1843A27C2667A57800AE9D5D /* ToyViewController.swift */,
+				1843A27F2667A59800AE9D5D /* ToyNextViewController.swift */,
+				1843A2812667A5A600AE9D5D /* ToyTheAnswerViewController.swift */,
+			);
+			path = Toy;
+			sourceTree = "<group>";
+		};
+		18820B70265CFC5200ECC597 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18820B71265CFC6600ECC597 /* SendModel.swift */,
+				18820B73265DBC0200ECC597 /* QuizModel.swift */,
+				18820B75265DD54A00ECC597 /* QuizList.swift */,
+				1843A2222661AA6F00AE9D5D /* TableViewScaleFitModel.swift */,
+				1843A2242661E95D00AE9D5D /* ViewScaleFitModel.swift */,
+				1843A2282662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift */,
+				1843A2372663B11900AE9D5D /* NextViewScaleFitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		862FD1E8D979AD25566FFFB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73E496EE5F8AB6C901BB49EF /* Pods_Swift6firestore1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182DF6F42657DCD900C06891 /* Swift6firestore1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182DF7092657DCDB00C06891 /* Build configuration list for PBXNativeTarget "Swift6firestore1" */;
+			buildPhases = (
+				F6CFA58B310CE76DE0375404 /* [CP] Check Pods Manifest.lock */,
+				182DF6F12657DCD900C06891 /* Sources */,
+				182DF6F22657DCD900C06891 /* Frameworks */,
+				182DF6F32657DCD900C06891 /* Resources */,
+				EE294067ECEF71B757BB450F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift6firestore1;
+			productName = Swift6firestore1;
+			productReference = 182DF6F52657DCD900C06891 /* Swift6firestore1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182DF6ED2657DCD900C06891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					182DF6F42657DCD900C06891 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 182DF6F02657DCD900C06891 /* Build configuration list for PBXProject "Swift6firestore1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182DF6EC2657DCD900C06891;
+			productRefGroup = 182DF6F62657DCD900C06891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182DF6F42657DCD900C06891 /* Swift6firestore1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182DF6F32657DCD900C06891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182DF7052657DCDB00C06891 /* LaunchScreen.storyboard in Resources */,
+				182DF7022657DCDB00C06891 /* Assets.xcassets in Resources */,
+				182DF7102657DFBA00C06891 /* GoogleService-Info.plist in Resources */,
+				18820B6B265C9B1400ECC597 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE294067ECEF71B757BB450F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift6firestore1/Pods-Swift6firestore1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift6firestore1/Pods-Swift6firestore1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift6firestore1/Pods-Swift6firestore1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CFA58B310CE76DE0375404 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift6firestore1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182DF6F12657DCD900C06891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185E9654265A001900D5A71B /* TopViewController.swift in Sources */,
+				182DF70E2657DD9D00C06891 /* LoginViewController.swift in Sources */,
+				1843A2672667116E00AE9D5D /* RefereeNextViewController.swift in Sources */,
+				182DF6FD2657DCD900C06891 /* ViewController.swift in Sources */,
+				1843A2802667A59800AE9D5D /* ToyNextViewController.swift in Sources */,
+				1843A2612667112600AE9D5D /* AthleteNextViewController.swift in Sources */,
+				1843A2632667113F00AE9D5D /* AthleteTheAnswerViewController.swift in Sources */,
+				1843A2362663031500AE9D5D /* TeacherTheAnswerViewController.swift in Sources */,
+				1843A2762667A50600AE9D5D /* ApparellViewController.swift in Sources */,
+				1843A23C26645F1B00AE9D5D /* MedicalViewController.swift in Sources */,
+				1843A23F26645F4400AE9D5D /* MedicalNextViewController.swift in Sources */,
+				1843A2292662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift in Sources */,
+				1843A24E266667D900AE9D5D /* CarpenterViewController.swift in Sources */,
+				185E9656265C871C00D5A71B /* SchoolViewController.swift in Sources */,
+				1843A2652667115B00AE9D5D /* RefereeViewController.swift in Sources */,
+				185E9658265C873800D5A71B /* DepartViewController.swift in Sources */,
+				1843A2722667A4C200AE9D5D /* BookNextViewController.swift in Sources */,
+				185E965C265C87D600D5A71B /* HouseViewController.swift in Sources */,
+				1843A27D2667A57800AE9D5D /* ToyViewController.swift in Sources */,
+				1843A2382663B11900AE9D5D /* NextViewScaleFitModel.swift in Sources */,
+				18820B74265DBC0200ECC597 /* QuizModel.swift in Sources */,
+				1843A2692667117D00AE9D5D /* RefereeTheAnswerViewController.swift in Sources */,
+				1843A2542667082700AE9D5D /* FurnitureViewController.swift in Sources */,
+				185E9660265C98BA00D5A71B /* SheffViewController.swift in Sources */,
+				1843A24C266635FD00AE9D5D /* gardenViewController.swift in Sources */,
+				1843A25B266710AF00AE9D5D /* ToolViewController.swift in Sources */,
+				1843A26D266711A400AE9D5D /* ToolTheAnswerViewController.swift in Sources */,
+				1843A2302662FF0600AE9D5D /* TeacherViewController.swift in Sources */,
+				18820B6F265CF08900ECC597 /* SheffTheAnswerViewController.swift in Sources */,
+				1843A2482666333100AE9D5D /* GardenNextViewController.swift in Sources */,
+				182DF6F92657DCD900C06891 /* AppDelegate.swift in Sources */,
+				1843A2562667083B00AE9D5D /* FurnitureNextViewController.swift in Sources */,
+				18820B72265CFC6600ECC597 /* SendModel.swift in Sources */,
+				1843A24A2666334E00AE9D5D /* GardenTheAnswerViewControllerViewController.swift in Sources */,
+				1843A26B2667119100AE9D5D /* ToolNextViewController.swift in Sources */,
+				1843A2522666681800AE9D5D /* CarpenterTheAnswerViewController.swift in Sources */,
+				1843A2742667A4D600AE9D5D /* BookTheAnswerViewController.swift in Sources */,
+				1843A2252661E95D00AE9D5D /* ViewScaleFitModel.swift in Sources */,
+				1843A2582667085300AE9D5D /* FurnitureTheAnswerViewController.swift in Sources */,
+				1843A25F2667111600AE9D5D /* AthleteViewController.swift in Sources */,
+				185E965A265C875200D5A71B /* SportsViewController.swift in Sources */,
+				182DF7122659282500C06891 /* SignInViewController.swift in Sources */,
+				1843A24126645F6900AE9D5D /* MedicalTheAnswerViewController.swift in Sources */,
+				1843A250266667EF00AE9D5D /* CarpenterNextViewController.swift in Sources */,
+				1843A2792667A51E00AE9D5D /* ApparellNextViewController.swift in Sources */,
+				1843A27B2667A52F00AE9D5D /* ApparellTheAnswerViewController.swift in Sources */,
+				1843A2822667A5A600AE9D5D /* ToyTheAnswerViewController.swift in Sources */,
+				182DF6FB2657DCD900C06891 /* SceneDelegate.swift in Sources */,
+				1843A2342663030100AE9D5D /* TeacherNextViewController.swift in Sources */,
+				18820B6D265CBA0000ECC597 /* ShefNextViewController.swift in Sources */,
+				1843A26F2667A4A200AE9D5D /* BookViewController.swift in Sources */,
+				18820B76265DD54A00ECC597 /* QuizList.swift in Sources */,
+				1843A2232661AA6F00AE9D5D /* TableViewScaleFitModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182DF7032657DCDB00C06891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182DF7042657DCDB00C06891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182DF7072657DCDB00C06891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182DF7082657DCDB00C06891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182DF70A2657DCDB00C06891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70A1653F19908BF3EDF158A /* Pods-Swift6firestore1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4A2NHJD64;
+				INFOPLIST_FILE = Swift6firestore1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isamutech.Swift6firestore1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		182DF70B2657DCDB00C06891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DA23F6530DDC030A5A8BFD /* Pods-Swift6firestore1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4A2NHJD64;
+				INFOPLIST_FILE = Swift6firestore1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isamutech.Swift6firestore1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182DF6F02657DCD900C06891 /* Build configuration list for PBXProject "Swift6firestore1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182DF7072657DCDB00C06891 /* Debug */,
+				182DF7082657DCDB00C06891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182DF7092657DCDB00C06891 /* Build configuration list for PBXNativeTarget "Swift6firestore1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182DF70A2657DCDB00C06891 /* Debug */,
+				182DF70B2657DCDB00C06891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182DF6ED2657DCD900C06891 /* Project object */;
+}

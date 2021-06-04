@@ -14,26 +14,11 @@ class SchoolViewController: UIViewController {
     @IBOutlet weak var teacherButton: UIButton!
     @IBOutlet weak var medicalButton: UIButton!
     
+    var schoolViewSaleFitModel = ViewScaleFitModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let MaxWidth = self.view.bounds.width
-        let MaxHeight = self.view.bounds.height
-        let width = MaxWidth / 6 * 5
-        let height = MaxHeight / 20
-        let x = (MaxWidth - width)/2
-        let y = MaxHeight/10
-        
-        schoolTopLabel.frame = CGRect(x: x, y: y, width: width, height: height * 2)
-        sheffButton.frame.size = CGSize(width: MaxWidth/2, height: height * 4)
-        sheffButton.center = CGPoint(x: MaxWidth/2, y: y * 3)
-        
-        teacherButton.frame.size = CGSize(width: MaxWidth/2, height: height * 4)
-        teacherButton.center = CGPoint(x: MaxWidth/2, y: y * 5.5)
-        
-        medicalButton.frame.size = CGSize(width: MaxWidth/2, height: height * 4)
-        medicalButton.center = CGPoint(x: MaxWidth/2, y: y * 8)
+        schoolViewSaleFitModel.viewScaleFit(sender: self, topLabel: schoolTopLabel, button1: sheffButton, button2: teacherButton, button3: medicalButton)
 
 
         // Do any additional setup after loading the view.

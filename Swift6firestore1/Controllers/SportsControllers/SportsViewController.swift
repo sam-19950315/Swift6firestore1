@@ -12,27 +12,14 @@ class SportsViewController: UIViewController {
     @IBOutlet weak var refereeButton: UIButton!
     @IBOutlet weak var toolButton: UIButton!
     @IBOutlet weak var athleteButton: UIButton!
+    var sportsViewScaleFitModel = ViewScaleFitModel()
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        sportsViewScaleFitModel.viewScaleFit(sender: self, topLabel: sportsTopLabel, button1: refereeButton, button2: toolButton, button3: athleteButton)
 
-          let MaxWidth = self.view.bounds.width
-          let MaxHeight = self.view.bounds.height
-          let width = MaxWidth / 6 * 5
-          let height = MaxHeight / 20
-          let x = (MaxWidth - width)/2
-          let y = MaxHeight/10
-          
-        sportsTopLabel.frame = CGRect(x: x, y: y, width: width, height: height * 2)
-        refereeButton.frame.size = CGSize(width: MaxWidth/2, height: height * 4)
-        refereeButton.center = CGPoint(x: MaxWidth/2, y: y * 3)
-        
-        toolButton.frame.size = CGSize(width: MaxWidth/2, height: height * 4)
-        toolButton.center = CGPoint(x: MaxWidth/2, y: y * 5.5)
-        
-        athleteButton.frame.size = CGSize(width: MaxWidth/2, height: height * 4)
-        athleteButton.center = CGPoint(x: MaxWidth/2, y: y * 8)
         // Do any additional setup after loading the view.
     }
     
