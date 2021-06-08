@@ -15,6 +15,7 @@ class TopViewController: UIViewController {
     @IBOutlet weak var house: UIButton!
     @IBOutlet weak var depart: UIButton!
     @IBOutlet weak var sports: UIButton!
+    @IBOutlet weak var parentsButton: UIButton!
     
     
     @IBOutlet weak var tapLabel: UILabel!
@@ -39,6 +40,7 @@ class TopViewController: UIViewController {
         depart.center = CGPoint(x: MaxWidth/3, y: y * 7)
         sports.frame.size = CGSize(width: MaxWidth/3, height: height * 3)
         sports.center = CGPoint(x: MaxWidth/3 * 2, y: y * 9)
+        parentsButton.frame = CGRect(x: x, y: y*9, width: MaxWidth/3, height: height)
 
 
         // Do any additional setup after loading the view.

@@ -169,6 +169,16 @@
                                     <action selector="sportsDetails:" destination="sXt-Fx-QEM" eventType="touchUpInside" id="2fa-XJ-YsO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eW6-n6-X3I">
+                                <rect key="frame" x="258" y="851" width="92" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.85371379830000005" blue="0.47766816080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <state key="normal" title="保護者の方はこちら"/>
+                                <connections>
+                                    <segue destination="dTj-7a-1UJ" kind="show" id="765-Ga-Zxc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dD9-fV-abB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -177,6 +187,7 @@
                     <connections>
                         <outlet property="depart" destination="e2B-2Z-FGx" id="j1t-mB-9sl"/>
                         <outlet property="house" destination="x8Y-51-E3D" id="19O-xp-9VE"/>
+                        <outlet property="parentsButton" destination="eW6-n6-X3I" id="ZGb-3c-m1K"/>
                         <outlet property="school" destination="2kW-rZ-1Os" id="xnl-ut-SNI"/>
                         <outlet property="sports" destination="qc5-Yg-7DE" id="qA8-Fh-yY6"/>
                         <outlet property="tapLabel" destination="gL5-mW-VBI" id="5yo-5p-a9D"/>
@@ -341,6 +352,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hli-qg-lLq" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="767" y="925"/>
+        </scene>
+        <!--Parents View Controller-->
+        <scene sceneID="yyM-ty-fbD">
+            <objects>
+                <viewController id="dTj-7a-1UJ" customClass="ParentsViewController" customModule="Swift6firestore1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HxR-e7-4V4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お子様の興味関心分野" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="AtN-yB-SiR">
+                                <rect key="frame" x="74" y="129" width="277" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qSf-Vt-Jao" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="300" width="414" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bay-8q-fP4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9jF-EH-hB3"/>
+                    <connections>
+                        <outlet property="parentsTopLabel" destination="AtN-yB-SiR" id="Yfw-2k-G8g"/>
+                        <outlet property="pieChartsView" destination="qSf-Vt-Jao" id="9fF-J3-I51"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AxT-gW-ZPv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1560.8695652173915" y="1283.7053571428571"/>
         </scene>
         <!--Sports View Controller-->
         <scene sceneID="SV1-x8-klk">
@@ -2886,7 +2932,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="t90-jm-0Ff"/>
+        <segue reference="Zvr-ag-XF3"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Aボタン" width="340" height="340"/>

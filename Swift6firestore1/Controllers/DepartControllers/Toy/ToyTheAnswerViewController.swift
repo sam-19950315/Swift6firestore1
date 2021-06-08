@@ -60,7 +60,7 @@ class ToyTheAnswerViewController: UIViewController {
     
     @IBAction func starButtonAction(_ sender: Any) {
         judge()
-        sendModel.sendCount(collectionName: interest2, count: count)
+        sendModel.sendCount(collectionName: interest2,count: count)
     }
 
     

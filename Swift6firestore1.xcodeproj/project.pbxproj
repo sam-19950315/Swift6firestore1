@@ -53,6 +53,9 @@
 		1843A27D2667A57800AE9D5D /* ToyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A27C2667A57800AE9D5D /* ToyViewController.swift */; };
 		1843A2802667A59800AE9D5D /* ToyNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A27F2667A59800AE9D5D /* ToyNextViewController.swift */; };
 		1843A2822667A5A600AE9D5D /* ToyTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2812667A5A600AE9D5D /* ToyTheAnswerViewController.swift */; };
+		1843A284266B98C300AE9D5D /* ParentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A283266B98C200AE9D5D /* ParentsViewController.swift */; };
+		1843A286266B9DAD00AE9D5D /* LoadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A285266B9DAD00AE9D5D /* LoadModel.swift */; };
+		1843A288266BA0EC00AE9D5D /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A287266BA0EC00AE9D5D /* PersonalData.swift */; };
 		185E9654265A001900D5A71B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9653265A001900D5A71B /* TopViewController.swift */; };
 		185E9656265C871C00D5A71B /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9655265C871C00D5A71B /* SchoolViewController.swift */; };
 		185E9658265C873800D5A71B /* DepartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9657265C873800D5A71B /* DepartViewController.swift */; };
@@ -115,6 +118,9 @@
 		1843A27C2667A57800AE9D5D /* ToyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyViewController.swift; sourceTree = "<group>"; };
 		1843A27F2667A59800AE9D5D /* ToyNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyNextViewController.swift; sourceTree = "<group>"; };
 		1843A2812667A5A600AE9D5D /* ToyTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyTheAnswerViewController.swift; sourceTree = "<group>"; };
+		1843A283266B98C200AE9D5D /* ParentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentsViewController.swift; sourceTree = "<group>"; };
+		1843A285266B9DAD00AE9D5D /* LoadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadModel.swift; sourceTree = "<group>"; };
+		1843A287266BA0EC00AE9D5D /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
 		185E9653265A001900D5A71B /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		185E9655265C871C00D5A71B /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
 		185E9657265C873800D5A71B /* DepartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +199,7 @@
 				182DF70D2657DD9D00C06891 /* LoginViewController.swift */,
 				182DF7112659282500C06891 /* SignInViewController.swift */,
 				185E9653265A001900D5A71B /* TopViewController.swift */,
+				1843A283266B98C200AE9D5D /* ParentsViewController.swift */,
 				1843A22A2662FE7C00AE9D5D /* SchoolControllers */,
 				1843A22B2662FE8F00AE9D5D /* DepartControllers */,
 				1843A22C2662FE9A00AE9D5D /* SportsControllers */,
@@ -384,6 +391,8 @@
 				1843A2242661E95D00AE9D5D /* ViewScaleFitModel.swift */,
 				1843A2282662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift */,
 				1843A2372663B11900AE9D5D /* NextViewScaleFitModel.swift */,
+				1843A285266B9DAD00AE9D5D /* LoadModel.swift */,
+				1843A287266BA0EC00AE9D5D /* PersonalData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -525,10 +534,12 @@
 				1843A2292662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift in Sources */,
 				1843A24E266667D900AE9D5D /* CarpenterViewController.swift in Sources */,
 				185E9656265C871C00D5A71B /* SchoolViewController.swift in Sources */,
+				1843A286266B9DAD00AE9D5D /* LoadModel.swift in Sources */,
 				1843A2652667115B00AE9D5D /* RefereeViewController.swift in Sources */,
 				185E9658265C873800D5A71B /* DepartViewController.swift in Sources */,
 				1843A2722667A4C200AE9D5D /* BookNextViewController.swift in Sources */,
 				185E965C265C87D600D5A71B /* HouseViewController.swift in Sources */,
+				1843A288266BA0EC00AE9D5D /* PersonalData.swift in Sources */,
 				1843A27D2667A57800AE9D5D /* ToyViewController.swift in Sources */,
 				1843A2382663B11900AE9D5D /* NextViewScaleFitModel.swift in Sources */,
 				18820B74265DBC0200ECC597 /* QuizModel.swift in Sources */,
@@ -551,6 +562,7 @@
 				1843A2252661E95D00AE9D5D /* ViewScaleFitModel.swift in Sources */,
 				1843A2582667085300AE9D5D /* FurnitureTheAnswerViewController.swift in Sources */,
 				1843A25F2667111600AE9D5D /* AthleteViewController.swift in Sources */,
+				1843A284266B98C300AE9D5D /* ParentsViewController.swift in Sources */,
 				185E965A265C875200D5A71B /* SportsViewController.swift in Sources */,
 				182DF7122659282500C06891 /* SignInViewController.swift in Sources */,
 				1843A24126645F6900AE9D5D /* MedicalTheAnswerViewController.swift in Sources */,

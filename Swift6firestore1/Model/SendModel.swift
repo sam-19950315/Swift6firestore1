@@ -16,7 +16,7 @@ class SendModel {
     func sendCount(collectionName:String,count:Int){
         db.collection("Users").document(Auth.auth().currentUser!.uid).collection("興味分野集計").document(collectionName).setData(
         
-            ["count":count]
+            ["instrument":collectionName,"count":count]
         )
         
     }
