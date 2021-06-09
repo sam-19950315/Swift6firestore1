@@ -62,6 +62,7 @@
 		185E965A265C875200D5A71B /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9659265C875200D5A71B /* SportsViewController.swift */; };
 		185E965C265C87D600D5A71B /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E965B265C87D600D5A71B /* HouseViewController.swift */; };
 		185E9660265C98BA00D5A71B /* SheffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E965F265C98BA00D5A71B /* SheffViewController.swift */; };
+		186B88C02670208F00794B72 /* RakutenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B88BF2670208F00794B72 /* RakutenViewController.swift */; };
 		18820B6B265C9B1400ECC597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18820B6A265C9B1400ECC597 /* Main.storyboard */; };
 		18820B6D265CBA0000ECC597 /* ShefNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B6C265CBA0000ECC597 /* ShefNextViewController.swift */; };
 		18820B6F265CF08900ECC597 /* SheffTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B6E265CF08900ECC597 /* SheffTheAnswerViewController.swift */; };
@@ -127,6 +128,7 @@
 		185E9659265C875200D5A71B /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
 		185E965B265C87D600D5A71B /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		185E965F265C98BA00D5A71B /* SheffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheffViewController.swift; sourceTree = "<group>"; };
+		186B88BF2670208F00794B72 /* RakutenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakutenViewController.swift; sourceTree = "<group>"; };
 		18820B6A265C9B1400ECC597 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		18820B6C265CBA0000ECC597 /* ShefNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShefNextViewController.swift; sourceTree = "<group>"; };
 		18820B6E265CF08900ECC597 /* SheffTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheffTheAnswerViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				182DF7112659282500C06891 /* SignInViewController.swift */,
 				185E9653265A001900D5A71B /* TopViewController.swift */,
 				1843A283266B98C200AE9D5D /* ParentsViewController.swift */,
+				186B88BF2670208F00794B72 /* RakutenViewController.swift */,
 				1843A22A2662FE7C00AE9D5D /* SchoolControllers */,
 				1843A22B2662FE8F00AE9D5D /* DepartControllers */,
 				1843A22C2662FE9A00AE9D5D /* SportsControllers */,
@@ -416,7 +419,7 @@
 				182DF6F12657DCD900C06891 /* Sources */,
 				182DF6F22657DCD900C06891 /* Frameworks */,
 				182DF6F32657DCD900C06891 /* Resources */,
-				EE294067ECEF71B757BB450F /* [CP] Embed Pods Frameworks */,
+				98D8996FDBF339F1288B8EA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -474,7 +477,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		EE294067ECEF71B757BB450F /* [CP] Embed Pods Frameworks */ = {
+		98D8996FDBF339F1288B8EA0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -573,6 +576,7 @@
 				182DF6FB2657DCD900C06891 /* SceneDelegate.swift in Sources */,
 				1843A2342663030100AE9D5D /* TeacherNextViewController.swift in Sources */,
 				18820B6D265CBA0000ECC597 /* ShefNextViewController.swift in Sources */,
+				186B88C02670208F00794B72 /* RakutenViewController.swift in Sources */,
 				1843A26F2667A4A200AE9D5D /* BookViewController.swift in Sources */,
 				18820B76265DD54A00ECC597 /* QuizList.swift in Sources */,
 				1843A2232661AA6F00AE9D5D /* TableViewScaleFitModel.swift in Sources */,

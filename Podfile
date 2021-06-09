@@ -7,12 +7,15 @@ target 'Swift6firestore1' do
 
   # Pods for Swift6firestore1
 
+
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'EMAlertController'
   pod 'Charts'
-
+  pod 'SwiftyJSON'
+  pod 'Alamofire', '~> 5.0.0-beta.5'
+  pod 'SDWebImage'
 
 
 end
