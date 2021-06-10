@@ -24,7 +24,6 @@ Swift6firestore1/masterをダウンロードし、Build
 ## 実装した機能の説明
 
 * 親が会員登録
-　[![Image from Gyazo](https://i.gyazo.com/4874a858541a55c21a1e560ed6d07d21.png)](https://gyazo.com/4874a858541a55c21a1e560ed6d07d21)
 
 * 子どもが興味のあるクイズを自分で取捨選択して答える
 
@@ -40,7 +39,8 @@ Swift6firestore1/masterをダウンロードし、Build
 
 
 ## 実装予定の機能
+* テストコードの実装
 
-## データベース設計
+* UIを整える
 
-## ローカルでの動作方法
+* 本のタイトルをタップしたとき、楽天ブックスのページに飛ぶ
