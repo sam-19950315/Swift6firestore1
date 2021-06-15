@@ -112,14 +112,10 @@ class ParentsViewController: UIViewController,GetDataProtocol {
         print(dataEntries)
         let dataSet = PieChartDataSet(entries: dataEntries,label: "興味Top5")
             dataSet.colors = ChartColorTemplates.vordiplom()
-                    // グラフのデータの値の色
                     dataSet.valueTextColor = UIColor.black
-                    // グラフのデータのタイトルの色
                     dataSet.entryLabelColor = UIColor.black
 
                     self.pieChartsView.data = PieChartData(dataSet: dataSet)
-                    
-                    // データを％表示にする
                     let formatter = NumberFormatter()
                     formatter.numberStyle = .percent
                     formatter.maximumFractionDigits = 2
@@ -131,7 +127,6 @@ class ParentsViewController: UIViewController,GetDataProtocol {
         
         let keyWordStrintg = chartArraySort[0].instrument
         keyWord = keyWordStrintg.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
-        print(keyWord)
         getBookImformation(keyword:keyWord, count: count )
         
     }
@@ -139,23 +134,15 @@ class ParentsViewController: UIViewController,GetDataProtocol {
     @IBAction func nextBook(_ sender: Any) {
         count = count + 1
         getBookImformation(keyword:keyWord, count: count )
-        print("ネクストぼたん")
-        print(count)
     }
     
     @IBAction func back(_ sender: Any) {
         if count == 0 {
             count = 0
             getBookImformation(keyword:keyWord, count: count )
-            print("0の時")
-            print("バックボタン")
-            print(count)
         }else{
         count = count - 1
             getBookImformation(keyword:keyWord, count: count )}
-        print("0以外の時")
-        print("バックボタン")
-        print(count)
     }
     
     
