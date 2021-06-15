@@ -332,17 +332,41 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="userNameError" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="DQk-9b-TtG">
+                                <rect key="frame" x="49" y="289" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="userNameError" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="bJO-is-dbB">
+                                <rect key="frame" x="58" y="397" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="userNameError" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="G83-Vn-hJi">
+                                <rect key="frame" x="67" y="523" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eAF-Sw-Mbb"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="O6Z-Md-FuU"/>
                     <connections>
+                        <outlet property="emailAddressError" destination="bJO-is-dbB" id="VUH-DG-jeA"/>
                         <outlet property="mailAddressLabel" destination="Icz-WP-bN4" id="SST-UK-Ref"/>
                         <outlet property="mailAddressRegistration" destination="dkA-9S-Ilk" id="1hM-qK-ayt"/>
+                        <outlet property="passWordError" destination="G83-Vn-hJi" id="Tts-bQ-qsD"/>
                         <outlet property="passwordLabel" destination="KBG-A9-tXT" id="lT5-pi-8It"/>
                         <outlet property="passwordRegistration" destination="VuQ-uL-xu9" id="0Ev-nk-tVg"/>
                         <outlet property="submit" destination="AvP-hb-ivv" id="AXW-kf-cMS"/>
+                        <outlet property="userNameError" destination="DQk-9b-TtG" id="JjN-q3-dpF"/>
                         <outlet property="userNameLabel" destination="mfB-iw-vwQ" id="Fr9-Iv-N22"/>
                         <outlet property="userNameRegistration" destination="QaQ-pa-9LN" id="9rE-LX-3mm"/>
                         <outlet property="userRegistrationTopLabel" destination="onq-Tl-5rq" id="jmr-uU-1eU"/>
@@ -351,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hli-qg-lLq" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="767" y="925"/>
+            <point key="canvasLocation" x="425" y="929"/>
         </scene>
         <!--Parents View Controller-->
         <scene sceneID="yyM-ty-fbD">

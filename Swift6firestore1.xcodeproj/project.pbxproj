@@ -63,6 +63,7 @@
 		185E965C265C87D600D5A71B /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E965B265C87D600D5A71B /* HouseViewController.swift */; };
 		185E9660265C98BA00D5A71B /* SheffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E965F265C98BA00D5A71B /* SheffViewController.swift */; };
 		186B88C02670208F00794B72 /* RakutenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B88BF2670208F00794B72 /* RakutenViewController.swift */; };
+		186B88E22672CF5100794B72 /* ErrorPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B88E12672CF5000794B72 /* ErrorPrint.swift */; };
 		18820B6B265C9B1400ECC597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18820B6A265C9B1400ECC597 /* Main.storyboard */; };
 		18820B6D265CBA0000ECC597 /* ShefNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B6C265CBA0000ECC597 /* ShefNextViewController.swift */; };
 		18820B6F265CF08900ECC597 /* SheffTheAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820B6E265CF08900ECC597 /* SheffTheAnswerViewController.swift */; };
@@ -129,6 +130,7 @@
 		185E965B265C87D600D5A71B /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		185E965F265C98BA00D5A71B /* SheffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheffViewController.swift; sourceTree = "<group>"; };
 		186B88BF2670208F00794B72 /* RakutenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakutenViewController.swift; sourceTree = "<group>"; };
+		186B88E12672CF5000794B72 /* ErrorPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPrint.swift; sourceTree = "<group>"; };
 		18820B6A265C9B1400ECC597 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		18820B6C265CBA0000ECC597 /* ShefNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShefNextViewController.swift; sourceTree = "<group>"; };
 		18820B6E265CF08900ECC597 /* SheffTheAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheffTheAnswerViewController.swift; sourceTree = "<group>"; };
@@ -396,6 +398,7 @@
 				1843A2372663B11900AE9D5D /* NextViewScaleFitModel.swift */,
 				1843A285266B9DAD00AE9D5D /* LoadModel.swift */,
 				1843A287266BA0EC00AE9D5D /* PersonalData.swift */,
+				186B88E12672CF5000794B72 /* ErrorPrint.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186B88E22672CF5100794B72 /* ErrorPrint.swift in Sources */,
 				185E9654265A001900D5A71B /* TopViewController.swift in Sources */,
 				182DF70E2657DD9D00C06891 /* LoginViewController.swift in Sources */,
 				1843A2672667116E00AE9D5D /* RefereeNextViewController.swift in Sources */,

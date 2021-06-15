@@ -48,8 +48,42 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
         userRegistrationGuide.frame = CGRect(x:LoginLabel.frame.minX , y:y * 8 , width:width , height:height)
         
         userRegistrationGuideButton.frame = CGRect(x:(MaxWidth - width/3)/2 , y:y * 9 , width:width / 3 , height:height)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         // Do any additional setup after loading the view.
     }
+    
+    @objc func keyboardWillShow(_ notification:NSNotification){
+        if mailaddressRegistration.isFirstResponder{
+            return
+        }
+        
+        if self.view.frame.origin.y == 0 {
+            if let keyboardRect = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+                self.view.frame.origin.y -= keyboardRect.height
+            }
+        }
+    }
+
+     @objc func keyboardWillHide(_ notification:NSNotification){
+        if self.view.frame.origin.y != 0 {
+            self.view.frame.origin.y = 0
+        }
+           
+              
+               guard let duration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval else{return}
+
+
+                  UIView.animate(withDuration: duration) {
+                      
+                      let transform = CGAffineTransform(translationX: 0, y: 0)
+                      self.view.transform = transform
+                      
+                  }
+                  
+         }
     
     @IBAction func LoginAction(_ sender: Any) {
         let email = mailaddressRegistration.text
