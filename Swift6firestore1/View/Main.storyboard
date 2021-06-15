@@ -445,7 +445,6 @@
                                 <state key="normal" title="前"/>
                                 <connections>
                                     <action selector="back:" destination="dTj-7a-1UJ" eventType="touchUpInside" id="VX7-L3-Dcf"/>
-                                    <action selector="nextBook:" destination="dTj-7a-1UJ" eventType="touchUpInside" id="kig-c4-8m0"/>
                                 </connections>
                             </button>
                         </subviews>

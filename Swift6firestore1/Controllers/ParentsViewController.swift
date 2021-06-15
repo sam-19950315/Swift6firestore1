@@ -42,7 +42,7 @@ class ParentsViewController: UIViewController,GetDataProtocol {
         pieChartsView.frame = CGRect(x: x, y: y*2, width: width, height: height*8)
         bookImageView.frame = CGRect(x: 0, y: y*7, width: MaxWidth*3/7, height: MaxWidth*3/7)
         bookTitle.frame = CGRect(x: x, y: y*6.3, width: MaxWidth*4/5, height: height)
-        bookExplanation.frame = CGRect(x: MaxWidth*2/5, y: y*6.5, width: MaxWidth*1.5/3, height: height*6)
+        bookExplanation.frame = CGRect(x: MaxWidth*2/5, y: bookImageView.frame.minY, width: MaxWidth*1.5/3, height: MaxWidth*3/7)
         nextBook.frame = CGRect(x: MaxWidth*2/3, y: height*19, width: MaxWidth/6, height: height*4/5)
         backBook.frame = CGRect(x: MaxWidth/3, y: height*19, width: MaxWidth/6, height: height*4/5)
         
@@ -62,13 +62,16 @@ class ParentsViewController: UIViewController,GetDataProtocol {
 
             case.success:
                 let json:JSON = JSON(response.data as Any)
-                let imageString = json["Items"][count]["Item"]["smallImageUrl"].string
+                let imageString = json["Items"][count]["Item"]["mediumImageUrl"].string
                 let titleString = json["Items"][count]["Item"]["title"].string
                 let explanation = json["Items"][count]["Item"]["itemCaption"].string
-                url = json["Items"][count]["Item"]["itemUrl"].string!
                 self.bookImageView.sd_setImage(with: URL(string: imageString!), completed: nil)
                 self.bookTitle.setTitle(titleString, for: .normal)
+                self.bookTitle.titleLabel?.adjustsFontSizeToFitWidth = true
+                self.bookTitle.titleLabel?.minimumScaleFactor = 0.5
                 self.bookExplanation.text = explanation
+                self.bookExplanation.adjustsFontSizeToFitWidth = true
+                self.bookExplanation.minimumScaleFactor = 0.5
                 
             case.failure(let error):
                 print(error)
@@ -91,6 +94,7 @@ class ParentsViewController: UIViewController,GetDataProtocol {
         }
         
         self.pieChartsView.centerText = "お子様の興味分野"
+        self.pieChartsView.sizeToFit()
         var dataEntries = [PieChartDataEntry]()
         
             for i in 0..<chartArraySort.count{
@@ -127,11 +131,23 @@ class ParentsViewController: UIViewController,GetDataProtocol {
     @IBAction func nextBook(_ sender: Any) {
         count = count + 1
         getBookImformation(keyword:keyWord, count: count )
+        print("ネクストぼたん")
+        print(count)
     }
     
     @IBAction func back(_ sender: Any) {
+        if count == 0 {
+            count = 0
+            getBookImformation(keyword:keyWord, count: count )
+            print("0の時")
+            print("バックボタン")
+            print(count)
+        }else{
         count = count - 1
-        getBookImformation(keyword:keyWord, count: count )
+            getBookImformation(keyword:keyWord, count: count )}
+        print("0以外の時")
+        print("バックボタン")
+        print(count)
     }
     
     
