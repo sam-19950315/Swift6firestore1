@@ -99,6 +99,13 @@
                                     <action selector="registrationbutton:" destination="2Yb-Ai-LWy" eventType="touchUpInside" id="B4Y-qF-Ho0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="1vu-B7-jDI">
+                                <rect key="frame" x="49" y="580" width="42" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z7L-ia-aM3"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
@@ -106,6 +113,7 @@
                     <navigationItem key="navigationItem" id="YqL-w6-FyP"/>
                     <connections>
                         <outlet property="LoginLabel" destination="ahu-7o-p7s" id="h0B-1a-3yn"/>
+                        <outlet property="errorMessage" destination="1vu-B7-jDI" id="mkh-HF-rfx"/>
                         <outlet property="loginLowLabel" destination="goI-ly-9du" id="pak-B0-pis"/>
                         <outlet property="mailaddressLabel" destination="aG8-tK-ZKm" id="I0L-II-cLo"/>
                         <outlet property="mailaddressRegistration" destination="hVg-hN-aQj" id="WF3-oc-ry6"/>
@@ -3042,7 +3050,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zvr-ag-XF3"/>
+        <segue reference="t90-jm-0Ff"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Aボタン" width="340" height="340"/>

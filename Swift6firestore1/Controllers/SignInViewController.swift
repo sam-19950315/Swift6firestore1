@@ -19,6 +19,7 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var loginLowLabel: UIButton!
     @IBOutlet weak var userRegistrationGuide: UILabel!
     @IBOutlet weak var userRegistrationGuideButton: UIButton!
+    @IBOutlet weak var errorMessage: UILabel!
     
     
     
@@ -42,8 +43,10 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
         passWordLabel.frame = CGRect(x: LoginLabel.frame.minX, y: y * 5, width: width * 2 / 3, height: height)
         
         passWordRegistration.frame = CGRect(x: LoginLabel.frame.minX, y: y * 6, width: width * 2 / 3, height: height)
+        errorMessage.frame = CGRect(x: LoginLabel.frame.minX, y: y * 6.5, width: width, height: height)
         
         loginLowLabel.frame = CGRect(x:x , y:y * 7 , width:width , height:height)
+        
         
         userRegistrationGuide.frame = CGRect(x:LoginLabel.frame.minX , y:y * 8 , width:width , height:height)
         
@@ -93,9 +96,11 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
             guard let self = self else {return}
             if (result?.user) != nil{
                 self.performSegue(withIdentifier: "LoginSegue", sender: nil)
+                self.errorMessage.textColor = .systemTeal
                 print("ログイン成功！")
             }else{
-                print(error.debugDescription)
+                self.errorMessage.text = "メールアドレスか、パスワードを確認してください。"
+                self.errorMessage.textColor = .red
             }
         }
     
