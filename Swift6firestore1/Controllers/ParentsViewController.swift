@@ -93,14 +93,22 @@ class ParentsViewController: UIViewController,GetDataProtocol {
             chartArraySort.append(chartArraySortdata)
         }
         
-        self.pieChartsView.centerText = "お子様の興味分野"
+        self.pieChartsView.centerText = "お子様の\n興味分野\nTop5"
         self.pieChartsView.sizeToFit()
         var dataEntries = [PieChartDataEntry]()
         
+        if chartArraySort.count < 6{
             for i in 0..<chartArraySort.count{
                 let dataEntry = PieChartDataEntry(value: Double(chartArraySort[i].starCount), label: chartArraySort[i].instrument)
                 dataEntries.append(dataEntry)
             }
+        }else{
+        
+            for i in 0..<5{
+                let dataEntry = PieChartDataEntry(value: Double(chartArraySort[i].starCount), label: chartArraySort[i].instrument)
+                dataEntries.append(dataEntry)
+            }
+        }
         print(dataEntries)
         let dataSet = PieChartDataSet(entries: dataEntries,label: "興味Top5")
             dataSet.colors = ChartColorTemplates.vordiplom()
