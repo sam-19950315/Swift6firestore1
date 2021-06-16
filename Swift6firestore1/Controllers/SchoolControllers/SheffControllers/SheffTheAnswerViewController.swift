@@ -17,6 +17,7 @@ class SheffTheAnswerViewController: UIViewController {
     @IBOutlet weak var sheffExplanationLabel: UILabel!
     @IBOutlet weak var starTopLabel: UILabel!
     @IBOutlet weak var sheffstarButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
     
     let db = Firestore.firestore()
     var sheffYourAnswer = String()
@@ -32,7 +33,7 @@ class SheffTheAnswerViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        sheffTheAnswerViewScaleFit.theAnswerViewScaleFitFunc(sender: self, quizLabel2: sheffQuizLabel2, quizString2: sheffQuizString2, resultLabel: sheffResultLabel, collectLabel: sheffCollectLabel, collectAnswer: sheffCollectAnswer, explanationLabel: sheffExplanationLabel, explanation2: sheffExplanation2, starTopLabel: starTopLabel, starButton: sheffstarButton)
+        sheffTheAnswerViewScaleFit.theAnswerViewScaleFitFunc(sender: self, quizLabel2: sheffQuizLabel2, quizString2: sheffQuizString2, resultLabel: sheffResultLabel, collectLabel: sheffCollectLabel, collectAnswer: sheffCollectAnswer, explanationLabel: sheffExplanationLabel, explanation2: sheffExplanation2, starTopLabel: starTopLabel, starButton: sheffstarButton, backButton: backButton)
         
         check()
         loadData()
@@ -69,6 +70,11 @@ class SheffTheAnswerViewController: UIViewController {
             guard let countdata = snapShot?.data() else { return }
             self.count = countdata["count"] as! Int
             }
+    }
+    
+    @IBAction func backAction(_ sender: Any) {
+        let index = navigationController!.viewControllers.count - 3
+        navigationController?.popToViewController(navigationController!.viewControllers[index], animated: true)
     }
     
 

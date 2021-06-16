@@ -17,6 +17,8 @@ class AthleteTheAnswerViewController: UIViewController {
     @IBOutlet weak var explanationLabel: UILabel!
     @IBOutlet weak var starTopLabel: UILabel!
     @IBOutlet weak var starButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
+    
     
     
     let db = Firestore.firestore()
@@ -33,7 +35,7 @@ class AthleteTheAnswerViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        theAnswerViewScaleFit.theAnswerViewScaleFitFunc(sender: self, quizLabel2: quizLabel2, quizString2: quizString2, resultLabel: resultLabel, collectLabel: collectLabel, collectAnswer: collectAnswer, explanationLabel: explanationLabel, explanation2: explanation2, starTopLabel: starTopLabel, starButton: starButton)
+        theAnswerViewScaleFit.theAnswerViewScaleFitFunc(sender: self, quizLabel2: quizLabel2, quizString2: quizString2, resultLabel: resultLabel, collectLabel: collectLabel, collectAnswer: collectAnswer, explanationLabel: explanationLabel, explanation2: explanation2, starTopLabel: starTopLabel, starButton: starButton, backButton: backButton)
         
         check()
         loadData()
@@ -72,5 +74,11 @@ class AthleteTheAnswerViewController: UIViewController {
             self.count = countdata["count"] as! Int
             }
     }
-
+    
+    
+    @IBAction func backAction(_ sender: Any) {
+        let index = navigationController!.viewControllers.count - 3
+                navigationController?.popToViewController(navigationController!.viewControllers[index], animated: true)
+    }
+    
 }

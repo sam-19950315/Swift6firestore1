@@ -10,20 +10,19 @@ import WebKit
 
 class RakutenViewController: UIViewController {
     var webView = WKWebView()
+    var url = String()
+    
     @IBOutlet weak var toolBar: UIToolbar!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        webView.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height)
+        print(url)
+        webView.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height - toolBar.frame.size.height)
         
         view.addSubview(webView)
-        let urlString = UserDefaults.standard.object(forKey: "url")
-        print(urlString)
-        let url = URL(string: urlString as! String)
-        print(url)
+        let url = URL(string: url as! String)
         let request = URLRequest(url: url!)
-        
+
         webView.load(request)
         
         // Do any additional setup after loading the view.

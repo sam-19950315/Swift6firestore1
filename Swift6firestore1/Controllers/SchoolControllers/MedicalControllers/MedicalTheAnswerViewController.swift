@@ -27,12 +27,14 @@ class MedicalTheAnswerViewController: UIViewController {
     var medicalInterest2 = String()
     var count = Int()
     var medicalTheAnswerViewScaleFit = TheAnswerViewScaleFitModel()
+    @IBOutlet weak var backButton: UIButton!
+    
     
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        medicalTheAnswerViewScaleFit.theAnswerViewScaleFitFunc(sender: self, quizLabel2: medicalQuizLabel2, quizString2: medicalQuizString2, resultLabel: medicalResultLabel, collectLabel: medicalCollectLabel, collectAnswer: medicalCollectAnswer, explanationLabel: medicalExplanationLabel, explanation2: medicalExplanation2, starTopLabel: medicalStarTopLabel, starButton: medicalStarButton)
+        medicalTheAnswerViewScaleFit.theAnswerViewScaleFitFunc(sender: self, quizLabel2: medicalQuizLabel2, quizString2: medicalQuizString2, resultLabel: medicalResultLabel, collectLabel: medicalCollectLabel, collectAnswer: medicalCollectAnswer, explanationLabel: medicalExplanationLabel, explanation2: medicalExplanation2, starTopLabel: medicalStarTopLabel, starButton: medicalStarButton, backButton: backButton)
         
         check()
         loadData()
@@ -71,5 +73,11 @@ class MedicalTheAnswerViewController: UIViewController {
             self.count = countdata["count"] as! Int
             }
     }
-
+    
+    
+    @IBAction func backAction(_ sender: Any) {
+        let index = navigationController!.viewControllers.count - 3
+                navigationController?.popToViewController(navigationController!.viewControllers[index], animated: true)
+    }
+    
 }

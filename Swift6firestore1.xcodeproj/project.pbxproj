@@ -16,6 +16,8 @@
 		182DF70E2657DD9D00C06891 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF70D2657DD9D00C06891 /* LoginViewController.swift */; };
 		182DF7102657DFBA00C06891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */; };
 		182DF7122659282500C06891 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF7112659282500C06891 /* SignInViewController.swift */; };
+		182E072526799117008A6DEF /* 51814-kanji-drawing-6-mu-dream.json in Resources */ = {isa = PBXBuildFile; fileRef = 182E072426799116008A6DEF /* 51814-kanji-drawing-6-mu-dream.json */; };
+		182E072726799160008A6DEF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E072626799160008A6DEF /* IntroViewController.swift */; };
 		1843A2232661AA6F00AE9D5D /* TableViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2222661AA6F00AE9D5D /* TableViewScaleFitModel.swift */; };
 		1843A2252661E95D00AE9D5D /* ViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2242661E95D00AE9D5D /* ViewScaleFitModel.swift */; };
 		1843A2292662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2282662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift */; };
@@ -83,6 +85,8 @@
 		182DF70D2657DD9D00C06891 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		182DF7112659282500C06891 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		182E072426799116008A6DEF /* 51814-kanji-drawing-6-mu-dream.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "51814-kanji-drawing-6-mu-dream.json"; sourceTree = "<group>"; };
+		182E072626799160008A6DEF /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		1843A2222661AA6F00AE9D5D /* TableViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewScaleFitModel.swift; sourceTree = "<group>"; };
 		1843A2242661E95D00AE9D5D /* ViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewScaleFitModel.swift; sourceTree = "<group>"; };
 		1843A2282662F45D00AE9D5D /* TheAnswerViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAnswerViewScaleFitModel.swift; sourceTree = "<group>"; };
@@ -191,6 +195,7 @@
 				182DF70C2657DD8200C06891 /* Controllers */,
 				182DF7012657DCDB00C06891 /* Assets.xcassets */,
 				182DF7062657DCDB00C06891 /* Info.plist */,
+				182E072426799116008A6DEF /* 51814-kanji-drawing-6-mu-dream.json */,
 				182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */,
 			);
 			path = Swift6firestore1;
@@ -205,6 +210,7 @@
 				185E9653265A001900D5A71B /* TopViewController.swift */,
 				1843A283266B98C200AE9D5D /* ParentsViewController.swift */,
 				186B88BF2670208F00794B72 /* RakutenViewController.swift */,
+				182E072626799160008A6DEF /* IntroViewController.swift */,
 				1843A22A2662FE7C00AE9D5D /* SchoolControllers */,
 				1843A22B2662FE8F00AE9D5D /* DepartControllers */,
 				1843A22C2662FE9A00AE9D5D /* SportsControllers */,
@@ -472,6 +478,7 @@
 			files = (
 				182DF7052657DCDB00C06891 /* LaunchScreen.storyboard in Resources */,
 				182DF7022657DCDB00C06891 /* Assets.xcassets in Resources */,
+				182E072526799117008A6DEF /* 51814-kanji-drawing-6-mu-dream.json in Resources */,
 				182DF7102657DFBA00C06891 /* GoogleService-Info.plist in Resources */,
 				18820B6B265C9B1400ECC597 /* Main.storyboard in Resources */,
 			);
@@ -558,6 +565,7 @@
 				1843A26D266711A400AE9D5D /* ToolTheAnswerViewController.swift in Sources */,
 				1843A2302662FF0600AE9D5D /* TeacherViewController.swift in Sources */,
 				18820B6F265CF08900ECC597 /* SheffTheAnswerViewController.swift in Sources */,
+				182E072726799160008A6DEF /* IntroViewController.swift in Sources */,
 				1843A2482666333100AE9D5D /* GardenNextViewController.swift in Sources */,
 				182DF6F92657DCD900C06891 /* AppDelegate.swift in Sources */,
 				1843A2562667083B00AE9D5D /* FurnitureNextViewController.swift in Sources */,

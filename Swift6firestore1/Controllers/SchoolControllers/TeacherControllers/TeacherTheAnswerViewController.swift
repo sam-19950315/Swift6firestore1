@@ -17,6 +17,7 @@ class TeacherTheAnswerViewController: UIViewController {
     @IBOutlet weak var teacherExplanationLabel: UILabel!
     @IBOutlet weak var teacherStarTopLabel: UILabel!
     @IBOutlet weak var teacherStarButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
     
     
     let db = Firestore.firestore()
@@ -30,10 +31,11 @@ class TeacherTheAnswerViewController: UIViewController {
     var teacherTheAnswerViewScaleFit = TheAnswerViewScaleFitModel()
     
     
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        teacherTheAnswerViewScaleFit.theAnswerViewScaleFitFunc(sender: self, quizLabel2: teacherQuizLabel2, quizString2: teacherQuizString2, resultLabel: teacherResultLabel, collectLabel: teacherCollectLabel, collectAnswer: teacherCollectAnswer, explanationLabel: teacherExplanationLabel, explanation2: teacherExplanation2, starTopLabel: teacherStarTopLabel, starButton: teacherStarButton)
+        teacherTheAnswerViewScaleFit.theAnswerViewScaleFitFunc(sender: self, quizLabel2: teacherQuizLabel2, quizString2: teacherQuizString2, resultLabel: teacherResultLabel, collectLabel: teacherCollectLabel, collectAnswer: teacherCollectAnswer, explanationLabel: teacherExplanationLabel, explanation2: teacherExplanation2, starTopLabel: teacherStarTopLabel, starButton: teacherStarButton, backButton: backButton)
         
         check()
         loadData()
@@ -71,6 +73,12 @@ class TeacherTheAnswerViewController: UIViewController {
             guard let countdata = snapShot?.data() else { return }
             self.count = countdata["count"] as! Int
             }
+    }
+    
+    
+    @IBAction func backAction(_ sender: Any) {
+        let index = navigationController!.viewControllers.count - 3
+                navigationController?.popToViewController(navigationController!.viewControllers[index], animated: true)
     }
     
 

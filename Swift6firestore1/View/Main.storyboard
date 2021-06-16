@@ -148,7 +148,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kW-rZ-1Os">
                                 <rect key="frame" x="0.0" y="173" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="school"/>
+                                <state key="normal" image="School-3"/>
                                 <connections>
                                     <action selector="schoolDetails:" destination="sXt-Fx-QEM" eventType="touchUpInside" id="2Yu-Qd-4Nh"/>
                                 </connections>
@@ -156,7 +156,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8Y-51-E3D">
                                 <rect key="frame" x="186" y="232" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="house"/>
+                                <state key="normal" image="ｈouse-3"/>
                                 <connections>
                                     <action selector="houseDetails:" destination="sXt-Fx-QEM" eventType="touchUpInside" id="ISu-Oa-Q9D"/>
                                 </connections>
@@ -164,7 +164,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2B-2Z-FGx">
                                 <rect key="frame" x="0.0" y="381" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="depart"/>
+                                <state key="normal" image="departNeo"/>
                                 <connections>
                                     <action selector="departDetails:" destination="sXt-Fx-QEM" eventType="touchUpInside" id="1c5-5s-cU4"/>
                                 </connections>
@@ -172,7 +172,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qc5-Yg-7DE">
                                 <rect key="frame" x="107" y="614" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="sports"/>
+                                <state key="normal" image="sportsNeo"/>
                                 <connections>
                                     <action selector="sportsDetails:" destination="sXt-Fx-QEM" eventType="touchUpInside" id="2fa-XJ-YsO"/>
                                 </connections>
@@ -220,7 +220,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK4-TE-cKH">
                                 <rect key="frame" x="40" y="143" width="171" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="chef-1417239_640"/>
+                                <state key="normal" image="sheffNeo"/>
                                 <connections>
                                     <action selector="sheffAction:" destination="SVR-c4-POs" eventType="touchUpInside" id="Nxv-Ad-sfs"/>
                                 </connections>
@@ -232,7 +232,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j87-QR-qny">
                                 <rect key="frame" x="88" y="579" width="201" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="people-5525904_640"/>
+                                <state key="normal" image="保健室の先生Neo"/>
                                 <connections>
                                     <action selector="medicalAction:" destination="SVR-c4-POs" eventType="touchUpInside" id="RxP-sJ-b1B"/>
                                 </connections>
@@ -240,7 +240,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGC-M9-oek">
                                 <rect key="frame" x="36" y="304" width="248" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="businessman-607831_640"/>
+                                <state key="normal" image="TeacherNeo"/>
                                 <connections>
                                     <action selector="teacherAction:" destination="SVR-c4-POs" eventType="touchUpInside" id="Avn-xz-hAg"/>
                                 </connections>
@@ -516,7 +516,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkh-tp-Fli">
                                 <rect key="frame" x="71" y="128" width="272" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="whistle-2496555_640"/>
+                                <state key="normal" image="RefereeNeo"/>
                                 <connections>
                                     <action selector="refereeAction:" destination="QnM-S1-UKP" eventType="touchUpInside" id="F9v-mc-hU7"/>
                                 </connections>
@@ -524,7 +524,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ue-g4-0RE">
                                 <rect key="frame" x="80" y="421" width="255" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="dumbbells-2465478_640"/>
+                                <state key="normal" image="toolNeo"/>
                                 <connections>
                                     <action selector="toolAction:" destination="QnM-S1-UKP" eventType="touchUpInside" id="BBO-J1-d0b"/>
                                 </connections>
@@ -532,7 +532,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQE-cJ-r9T">
                                 <rect key="frame" x="88" y="645" width="238" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="soccer-1457988_640"/>
+                                <state key="normal" image="athleteNeo"/>
                                 <connections>
                                     <action selector="athleteAction:" destination="QnM-S1-UKP" eventType="touchUpInside" id="QPq-ve-OVl"/>
                                 </connections>
@@ -575,7 +575,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jH0-Di-qJH">
                                 <rect key="frame" x="55" y="107" width="328" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="books-1204029_640"/>
+                                <state key="normal" image="Book Neo"/>
                                 <connections>
                                     <action selector="bookAction:" destination="u5A-QU-yIy" eventType="touchUpInside" id="4U0-JN-Vfg"/>
                                 </connections>
@@ -583,7 +583,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKm-Qt-9Hv">
                                 <rect key="frame" x="75" y="353" width="288" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="store-984393_640"/>
+                                <state key="normal" image="fasshionNeo"/>
                                 <connections>
                                     <action selector="fashionAction:" destination="u5A-QU-yIy" eventType="touchUpInside" id="DuB-te-hF5"/>
                                 </connections>
@@ -591,7 +591,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21n-Os-nFg">
                                 <rect key="frame" x="93" y="618" width="301" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="thomas-and-friends-2435542_640"/>
+                                <state key="normal" image="ToyNeo"/>
                                 <connections>
                                     <action selector="toyAction:" destination="u5A-QU-yIy" eventType="touchUpInside" id="Wff-XJ-j9m"/>
                                 </connections>
@@ -634,7 +634,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrf-xj-cCf">
                                 <rect key="frame" x="51" y="106" width="313" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="autumn-5519836_640"/>
+                                <state key="normal" image="gardenNeo"/>
                                 <connections>
                                     <action selector="gardenAction:" destination="ZuT-Ky-QnX" eventType="touchUpInside" id="Oj4-Dh-P1i"/>
                                 </connections>
@@ -642,7 +642,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vv-T8-Dhl">
                                 <rect key="frame" x="78" y="578" width="242" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="sofa-1574445_640"/>
+                                <state key="normal" image="RoomNeo"/>
                                 <connections>
                                     <action selector="furnitureAction:" destination="ZuT-Ky-QnX" eventType="touchUpInside" id="sKC-YP-6fB"/>
                                 </connections>
@@ -650,7 +650,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UN-o6-DJy">
                                 <rect key="frame" x="113" y="299" width="189" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="carpenter-1453880_640"/>
+                                <state key="normal" image="daikuNeo"/>
                                 <connections>
                                     <action selector="carpenterAction:" destination="ZuT-Ky-QnX" eventType="touchUpInside" id="EXG-XF-3BU"/>
                                 </connections>
@@ -685,7 +685,7 @@
         <!--Sheff View Controller-->
         <scene sceneID="hff-Ei-2Sc">
             <objects>
-                <viewController id="0aN-hH-0jY" customClass="SheffViewController" customModule="Swift6firestore1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sheffViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0aN-hH-0jY" customClass="SheffViewController" customModule="Swift6firestore1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rT3-9u-0yg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -771,15 +771,15 @@
                                     <action selector="sheffAnswer:" destination="A5J-nz-rZd" eventType="touchUpInside" id="zbS-oA-uyN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="aiu" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="RKX-yx-7Hf">
-                                <rect key="frame" x="158" y="512" width="221" height="95"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="aiu" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="vj0-kf-ayd">
+                                <rect key="frame" x="173" y="512" width="221" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="aiu" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="y4P-aa-W8E">
-                                <rect key="frame" x="158" y="696" width="221" height="95"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="aiu" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="cvE-lS-ldB">
+                                <rect key="frame" x="173" y="696" width="221" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <nil key="textColor"/>
@@ -792,9 +792,9 @@
                     <navigationItem key="navigationItem" id="tZ4-JH-1hf"/>
                     <connections>
                         <outlet property="sheffAsAnswer" destination="Ag1-jS-849" id="Ed1-T6-gFg"/>
-                        <outlet property="sheffAsAnswerLabel" destination="RKX-yx-7Hf" id="9Gg-BH-CV2"/>
+                        <outlet property="sheffAsAnswerLabel" destination="vj0-kf-ayd" id="uKT-K3-795"/>
                         <outlet property="sheffBsAnswer" destination="ovE-15-bWv" id="Yfp-YZ-K4J"/>
-                        <outlet property="sheffBsAnswerLabel" destination="y4P-aa-W8E" id="H03-FP-KZK"/>
+                        <outlet property="sheffBsAnswerLabel" destination="cvE-lS-ldB" id="Fdn-60-2xs"/>
                         <outlet property="sheffQuizLabel" destination="vKk-ge-eJL" id="V4J-mZ-be2"/>
                         <outlet property="sheffQuizTopLabel" destination="Whf-Oh-pfn" id="gCm-AJ-RXs"/>
                         <segue destination="QFD-g7-UYf" kind="show" id="TAV-wJ-Lt6"/>
@@ -859,12 +859,25 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrT-Ky-TMP">
+                                <rect key="frame" x="292" y="832" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="CuR-s9-Cbs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b0j-mP-6mO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="B4z-B4-qcD"/>
                     <connections>
+                        <outlet property="backButton" destination="SrT-Ky-TMP" id="6aO-d0-jQe"/>
                         <outlet property="sheffCollectLabel" destination="KLz-os-K51" id="pG4-yG-hy5"/>
                         <outlet property="sheffExplanationLabel" destination="ZQU-FG-kad" id="nUq-Tc-iHq"/>
                         <outlet property="sheffQuizLabel2" destination="3fE-q8-8ej" id="DQj-dH-C9e"/>
@@ -1054,12 +1067,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAu-3H-ypn">
+                                <rect key="frame" x="328" y="836" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="Nel-l5-Jtt"/>
+                                    <action selector="backAction:" destination="QCg-b7-GIs" eventType="touchUpInside" id="t2D-6B-c42"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ho0-9B-5gB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="BQd-8u-tcC"/>
                     <connections>
+                        <outlet property="backButton" destination="fAu-3H-ypn" id="aIs-je-y73"/>
                         <outlet property="teacherCollectLabel" destination="63h-jp-8Wd" id="FKm-qP-HSn"/>
                         <outlet property="teacherExplanationLabel" destination="hwj-Yc-Kik" id="JrI-R7-hlU"/>
                         <outlet property="teacherQuizLabel2" destination="HGC-Wz-m8m" id="anI-9h-ip0"/>
@@ -1251,12 +1278,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3D-k5-dsA">
+                                <rect key="frame" x="315" y="830" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="Z6a-yo-EpD"/>
+                                    <action selector="backAction:" destination="9hm-96-WcG" eventType="touchUpInside" id="iya-mh-tdK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gMX-cW-jnq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="WPS-cs-jSO"/>
                     <connections>
+                        <outlet property="backButton" destination="I3D-k5-dsA" id="fDm-sC-a6k"/>
                         <outlet property="medicalCollectLabel" destination="WxL-Tq-JmK" id="Ull-rL-C2c"/>
                         <outlet property="medicalExplanationLabel" destination="UrF-de-I0H" id="VGg-Rm-6c4"/>
                         <outlet property="medicalQuizLabel2" destination="keb-Js-NBc" id="x6c-9P-BeX"/>
@@ -1400,12 +1441,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aes-I3-0yj">
+                                <rect key="frame" x="315" y="839" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="dd1-D6-dze" eventType="touchUpInside" id="0Nj-0Q-d5O"/>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="PUZ-Pj-aji"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bqr-Tx-JY3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="6tb-mO-4rx"/>
                     <connections>
+                        <outlet property="backButton" destination="aes-I3-0yj" id="pch-7r-so7"/>
                         <outlet property="collectLabel" destination="iJu-ar-kZ9" id="E3W-EA-Smj"/>
                         <outlet property="explanationLabel" destination="hxK-1d-wb8" id="MIe-9X-u4k"/>
                         <outlet property="quizLabel2" destination="aIo-Pl-ZUF" id="t8D-eC-94c"/>
@@ -1597,12 +1652,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3IF-dZ-z74">
+                                <rect key="frame" x="283" y="788" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="RWR-nv-9HD" eventType="touchUpInside" id="A1T-cY-jMj"/>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="vt1-zI-XNR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aYl-B8-yqc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Chn-JC-EGb"/>
                     <connections>
+                        <outlet property="backButton" destination="3IF-dZ-z74" id="MY9-Ba-Tfv"/>
                         <outlet property="collectLabel" destination="LVk-qQ-4vh" id="BTC-Dq-GA3"/>
                         <outlet property="explanationLabel" destination="3HN-tv-RRd" id="Ehe-LV-E97"/>
                         <outlet property="quizLabel2" destination="QPU-pO-Jly" id="BfH-7S-fZt"/>
@@ -1795,12 +1864,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwd-dq-Gd2">
+                                <rect key="frame" x="285" y="804" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="pgZ-C9-mxq" eventType="touchUpInside" id="TeY-Nj-Ddf"/>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="oqq-0q-a4N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AEa-hF-wAx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="jqe-kl-oyJ"/>
                     <connections>
+                        <outlet property="backButton" destination="jwd-dq-Gd2" id="PEa-hX-zE7"/>
                         <outlet property="collectLabel" destination="psI-ys-vVF" id="D9d-MH-XNg"/>
                         <outlet property="explanationLabel" destination="J45-Xb-HRz" id="OJX-Lx-BkD"/>
                         <outlet property="quizLabel2" destination="mdC-iP-zNu" id="YmD-Sw-Mo7"/>
@@ -1993,12 +2076,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D89-Yw-jMY">
+                                <rect key="frame" x="297" y="858" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="ojM-df-wUH"/>
+                                    <action selector="backAction:" destination="Dw7-SJ-Uah" eventType="touchUpInside" id="rEF-Lg-tEO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MVX-pg-rrV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="wJ1-ta-id0"/>
                     <connections>
+                        <outlet property="backButton" destination="D89-Yw-jMY" id="m4i-nu-rmo"/>
                         <outlet property="collectLabel" destination="aPT-Gg-vio" id="8hY-Y7-CzL"/>
                         <outlet property="explanationLabel" destination="kxk-mz-3c2" id="hne-oD-uMO"/>
                         <outlet property="quizLabel2" destination="ZHZ-CL-EFn" id="2xW-UK-TeO"/>
@@ -2191,12 +2288,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6d7-Mn-bIS">
+                                <rect key="frame" x="328" y="812" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="Dkz-R5-by6"/>
+                                    <action selector="backAction:" destination="z4R-Jt-rOm" eventType="touchUpInside" id="Ghp-Ou-HdL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="115-rQ-BnO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="XSh-RE-0VZ"/>
                     <connections>
+                        <outlet property="backButton" destination="6d7-Mn-bIS" id="dqc-YP-97t"/>
                         <outlet property="collectLabel" destination="wnN-Kq-maL" id="EgB-bh-EnE"/>
                         <outlet property="explanationLabel" destination="lwh-H4-vfD" id="eTw-j7-SDE"/>
                         <outlet property="quizLabel2" destination="weh-6H-dvY" id="6fl-7e-yNR"/>
@@ -2389,12 +2500,27 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRC-pL-oPa">
+                                <rect key="frame" x="314" y="789" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="j7E-MJ-03O" eventType="touchUpInside" id="6Ox-mr-ysG"/>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="w7t-D0-Qac"/>
+                                    <action selector="backButton:" destination="zY2-09-DA3" eventType="touchUpInside" id="epO-yG-3Hx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OVl-0a-tZB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="gz8-my-RS4"/>
                     <connections>
+                        <outlet property="backButton" destination="fRC-pL-oPa" id="8z3-rp-NoW"/>
                         <outlet property="collectLabel" destination="LWB-89-7f1" id="aJv-X0-msf"/>
                         <outlet property="explanationLabel" destination="RS5-5z-Zz9" id="iqj-da-foJ"/>
                         <outlet property="quizLabel2" destination="jjU-yb-vjV" id="aQm-kG-hLf"/>
@@ -2404,6 +2530,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mRL-ri-1UZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="zY2-09-DA3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3958" y="3917"/>
         </scene>
@@ -2587,12 +2714,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3j-6S-9BQ">
+                                <rect key="frame" x="325" y="795" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="gMV-ZL-gC1" eventType="touchUpInside" id="kTo-Vl-AKe"/>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="sCq-M1-OOk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N8r-G9-chO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Uaa-20-Mo9"/>
                     <connections>
+                        <outlet property="backButton" destination="p3j-6S-9BQ" id="Qjy-ej-ONl"/>
                         <outlet property="collectLabel" destination="fvZ-as-ckd" id="cbf-QH-vDm"/>
                         <outlet property="explanationLabel" destination="DH9-uT-Zkk" id="NRy-ZH-GD8"/>
                         <outlet property="quizLabel2" destination="6WH-os-uff" id="1ZJ-yB-Oss"/>
@@ -2785,12 +2926,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vw5-xs-XqF">
+                                <rect key="frame" x="296" y="832" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="MaJ-Dg-VJV"/>
+                                    <action selector="backAction:" destination="MkI-vl-6T2" eventType="touchUpInside" id="OS2-7c-Cyh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uGr-X3-LIV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="SqI-dN-9ia"/>
                     <connections>
+                        <outlet property="backButton" destination="Vw5-xs-XqF" id="KMv-04-IQC"/>
                         <outlet property="collectLabel" destination="uXa-Tg-vuI" id="8wd-xG-VGL"/>
                         <outlet property="explanationLabel" destination="Oo0-8X-0pL" id="gGC-0v-Czz"/>
                         <outlet property="quizLabel2" destination="niw-rh-ZsM" id="apy-jk-tyN"/>
@@ -2983,12 +3138,26 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gE9-1u-15N">
+                                <rect key="frame" x="323" y="833" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="クイズに戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backAction:" destination="QFD-g7-UYf" eventType="touchUpInside" id="3Hf-ln-ZwL"/>
+                                    <action selector="backAction:" destination="Q72-vw-hDC" eventType="touchUpInside" id="yI3-bq-NMZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sML-HU-yb6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Pgz-gq-ZVY"/>
                     <connections>
+                        <outlet property="backButton" destination="gE9-1u-15N" id="hpv-aS-kQt"/>
                         <outlet property="collectLabel" destination="UIr-CU-7Mj" id="er9-hT-pEg"/>
                         <outlet property="explanationLabel" destination="Jgh-Yb-1ao" id="8e1-vg-9lk"/>
                         <outlet property="quizLabel2" destination="9L1-qa-WrG" id="Lc8-85-7dN"/>
@@ -3047,30 +3216,45 @@
             </objects>
             <point key="canvasLocation" x="5572" y="1592"/>
         </scene>
+        <!--Intro View Controller-->
+        <scene sceneID="O5l-wH-xd5">
+            <objects>
+                <viewController id="20s-3F-DY6" customClass="IntroViewController" customModule="Swift6firestore1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wOF-0i-Wwe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BKO-JX-Qcw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BBd-NA-K9v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="425" y="1673"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="t90-jm-0Ff"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Aボタン" width="340" height="340"/>
+        <image name="Book Neo" width="400" height="400"/>
         <image name="Bボタン" width="340" height="340"/>
-        <image name="autumn-5519836_640" width="640" height="360"/>
-        <image name="books-1204029_640" width="640" height="425"/>
-        <image name="businessman-607831_640" width="640" height="640"/>
-        <image name="carpenter-1453880_640" width="519" height="640"/>
-        <image name="chef-1417239_640" width="640" height="320"/>
-        <image name="depart" width="1920" height="1280"/>
-        <image name="dumbbells-2465478_640" width="640" height="426"/>
-        <image name="house" width="1280" height="905"/>
-        <image name="people-5525904_640" width="597" height="640"/>
-        <image name="school" width="1280" height="656"/>
-        <image name="soccer-1457988_640" width="640" height="456"/>
-        <image name="sofa-1574445_640" width="640" height="559"/>
-        <image name="sports" width="1920" height="1280"/>
+        <image name="RefereeNeo" width="278" height="400"/>
+        <image name="RoomNeo" width="400" height="400"/>
+        <image name="School-3" width="600" height="338"/>
+        <image name="TeacherNeo" width="330" height="450"/>
+        <image name="ToyNeo" width="400" height="400"/>
+        <image name="athleteNeo" width="500" height="495"/>
+        <image name="daikuNeo" width="351" height="400"/>
+        <image name="departNeo" width="400" height="363"/>
+        <image name="fasshionNeo" width="400" height="400"/>
+        <image name="gardenNeo" width="400" height="299"/>
+        <image name="sheffNeo" width="197" height="450"/>
+        <image name="sportsNeo" width="800" height="607"/>
         <image name="star-158502_640" width="640" height="609"/>
-        <image name="store-984393_640" width="640" height="427"/>
-        <image name="thomas-and-friends-2435542_640" width="640" height="427"/>
-        <image name="whistle-2496555_640" width="640" height="426"/>
+        <image name="toolNeo" width="234" height="400"/>
+        <image name="保健室の先生Neo" width="450" height="407"/>
+        <image name="ｈouse-3" width="687" height="636"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

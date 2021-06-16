@@ -26,7 +26,7 @@ class ParentsViewController: UIViewController,GetDataProtocol {
     var loadModel = LoadModel()
     var count = 0
     var keyWord = String()
-    var url = String()
+    var urlString = String()
     
     
     override func viewDidLoad() {
@@ -57,7 +57,7 @@ class ParentsViewController: UIViewController,GetDataProtocol {
     func getBookImformation(keyword:String,count:Int){
         var url =  "https://app.rakuten.co.jp/services/api/BooksBook/Search/20170404?format=json&title=\(keyWord)&booksGenreId=001004008&carrier=1&applicationId=1037396809879386176"
         
-        AF.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON {(response) in
+        AF.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON { [self](response) in
             switch response.result{
 
             case.success:
@@ -65,6 +65,7 @@ class ParentsViewController: UIViewController,GetDataProtocol {
                 let imageString = json["Items"][count]["Item"]["mediumImageUrl"].string
                 let titleString = json["Items"][count]["Item"]["title"].string
                 let explanation = json["Items"][count]["Item"]["itemCaption"].string
+                urlString = json["Items"][count]["Item"]["itemUrl"].string!
                 self.bookImageView.sd_setImage(with: URL(string: imageString!), completed: nil)
                 self.bookTitle.setTitle(titleString, for: .normal)
                 self.bookTitle.titleLabel?.adjustsFontSizeToFitWidth = true
@@ -147,10 +148,9 @@ class ParentsViewController: UIViewController,GetDataProtocol {
     
     
     @IBAction func roadToRakutenBook(_ sender: Any) {
-        let rakutenViewController = RakutenViewController()
-        let bookItemUrl = url
-        UserDefaults.standard.setValue(bookItemUrl, forKey: "url")
-        present(rakutenViewController, animated: true, completion: nil)
+        let nextVC = storyboard?.instantiateViewController(identifier: "rakutenPage") as! RakutenViewController
+        nextVC.url = urlString
+        navigationController?.pushViewController(nextVC, animated: true)
     }
     
     
