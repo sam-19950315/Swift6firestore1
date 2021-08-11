@@ -3,9 +3,6 @@
 
 <img src="https://user-images.githubusercontent.com/77444865/129061939-9832afc7-5dac-409e-b172-405c5f959999.png" width=240px height=510px >
 
-# 開発環境
-
-* 使用言語:swift (version:5.4)* DB:FireBase* プロジェクト管理:git(version:2.30.1)* エディタ:xcode* その他:楽天BOOKSのAPI通信(JSON解析)
 
 # 実装した機能の説明
 
@@ -24,6 +21,15 @@
 <img src="https://user-images.githubusercontent.com/77444865/129077088-28c12128-eafc-4133-8af9-f7bcc0ed8b6c.gif" width=240px height=510px >
 * 本の題名をタップすると、楽天ブックスのページにとぶ
 <img src="https://user-images.githubusercontent.com/77444865/129078176-a1c22644-7ed4-4fa8-b014-f069d0c47289.gif" width=240px height=510px >
+
+
+# 開発環境
+
+* 使用言語:swift (version:5.4)
+* DB:FireBase
+* プロジェクト管理:git(version:2.30.1)
+* エディタ:xcode
+* その他:楽天BOOKSのAPI通信(JSON解析)
 
 ## 今後の実装予定
 * 問題の数を増やす
