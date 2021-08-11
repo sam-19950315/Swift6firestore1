@@ -16,6 +16,8 @@ target 'Swift6firestore1' do
   pod 'SwiftyJSON'
   pod 'Alamofire', '~> 5.0.0-beta.5'
   pod 'SDWebImage'
+  pod 'lottie-ios'
+
 
 
 end

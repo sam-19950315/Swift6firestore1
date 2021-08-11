@@ -16,7 +16,7 @@
 		182DF70E2657DD9D00C06891 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF70D2657DD9D00C06891 /* LoginViewController.swift */; };
 		182DF7102657DFBA00C06891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */; };
 		182DF7122659282500C06891 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF7112659282500C06891 /* SignInViewController.swift */; };
-		182E072526799117008A6DEF /* 51814-kanji-drawing-6-mu-dream.json in Resources */ = {isa = PBXBuildFile; fileRef = 182E072426799116008A6DEF /* 51814-kanji-drawing-6-mu-dream.json */; };
+		182E072526799117008A6DEF /* dream.json in Resources */ = {isa = PBXBuildFile; fileRef = 182E072426799116008A6DEF /* dream.json */; };
 		182E072726799160008A6DEF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E072626799160008A6DEF /* IntroViewController.swift */; };
 		1843A2232661AA6F00AE9D5D /* TableViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2222661AA6F00AE9D5D /* TableViewScaleFitModel.swift */; };
 		1843A2252661E95D00AE9D5D /* ViewScaleFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A2242661E95D00AE9D5D /* ViewScaleFitModel.swift */; };
@@ -85,7 +85,7 @@
 		182DF70D2657DD9D00C06891 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		182DF7112659282500C06891 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		182E072426799116008A6DEF /* 51814-kanji-drawing-6-mu-dream.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "51814-kanji-drawing-6-mu-dream.json"; sourceTree = "<group>"; };
+		182E072426799116008A6DEF /* dream.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dream.json; sourceTree = "<group>"; };
 		182E072626799160008A6DEF /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		1843A2222661AA6F00AE9D5D /* TableViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewScaleFitModel.swift; sourceTree = "<group>"; };
 		1843A2242661E95D00AE9D5D /* ViewScaleFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewScaleFitModel.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				182DF70C2657DD8200C06891 /* Controllers */,
 				182DF7012657DCDB00C06891 /* Assets.xcassets */,
 				182DF7062657DCDB00C06891 /* Info.plist */,
-				182E072426799116008A6DEF /* 51814-kanji-drawing-6-mu-dream.json */,
+				182E072426799116008A6DEF /* dream.json */,
 				182DF70F2657DFBA00C06891 /* GoogleService-Info.plist */,
 			);
 			path = Swift6firestore1;
@@ -478,7 +478,7 @@
 			files = (
 				182DF7052657DCDB00C06891 /* LaunchScreen.storyboard in Resources */,
 				182DF7022657DCDB00C06891 /* Assets.xcassets in Resources */,
-				182E072526799117008A6DEF /* 51814-kanji-drawing-6-mu-dream.json in Resources */,
+				182E072526799117008A6DEF /* dream.json in Resources */,
 				182DF7102657DFBA00C06891 /* GoogleService-Info.plist in Resources */,
 				18820B6B265C9B1400ECC597 /* Main.storyboard in Resources */,
 			);
