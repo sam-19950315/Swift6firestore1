@@ -2,7 +2,12 @@
 将来の夢や、目標を見つけるきっかけとなるアプリ
 
 <img src="https://user-images.githubusercontent.com/77444865/129061939-9832afc7-5dac-409e-b172-405c5f959999.png" width=240px height=510px >
-
+# 開発環境
+* 使用言語:swift (version:5.4)
+* DB:FireBase
+* プロジェクト管理:git(version:2.30.1)
+* エディタ:xcode
+* その他:楽天BOOKSのAPI通信(JSON解析)
 
 # 実装した機能の説明
 
@@ -37,10 +42,5 @@
 * 様々な分野のクイズを通して、Userの興味がある分野を発見できる。
 * その興味を深めるための本を勧める
 
-# 開発環境
-* 使用言語:swift (version:5.4)
-* DB:FireBase
-* プロジェクト管理:git(version:2.30.1)
-* エディタ:xcode
-* その他:楽天BOOKSのAPI通信(JSON解析)
+
 
