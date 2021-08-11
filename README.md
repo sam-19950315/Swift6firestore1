@@ -30,7 +30,7 @@
 
 <img src="https://user-images.githubusercontent.com/77444865/129067720-598fc5ae-efe6-4920-9be3-95b4f18d6ea6.png" width=240px height=510px ><img src="https://user-images.githubusercontent.com/77444865/129067874-763b32a9-bc70-443e-96e4-3355330214ed.png" width=240px height=510px >
 
-* 子どもが興味のあるクイズを自分で取捨選択して答える
+* ログイン後のページ(子どもが興味のあるクイズを自分で取捨選択して答える)
 <img src="https://user-images.githubusercontent.com/77444865/129068269-6ab6750b-056d-4971-982e-6056bdd7ac4b.png" width=240px height=510px >
 
 
