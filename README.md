@@ -36,6 +36,8 @@
 <img src="https://user-images.githubusercontent.com/77444865/129076898-265925cc-d7d2-4a19-8d6f-08ed5f749498.gif" width=240px height=510px >
 * それぞれのクイズ内容に紐づいた興味分野に、誰が、スターボタンを合計何回押したのかをデータベースに記録し、集計。保護者に、子どもがどの分野に興味があるかグラフかしてお伝え。また、興味に紐づいた本を楽天BOOKSのAPIを使用し、提案する。
 <img src="https://user-images.githubusercontent.com/77444865/129077088-28c12128-eafc-4133-8af9-f7bcc0ed8b6c.gif" width=240px height=510px >
+* 本の題名をタップすると、楽天ブックスのページにとぶ
+<img src="https://user-images.githubusercontent.com/77444865/129078176-a1c22644-7ed4-4fa8-b014-f069d0c47289.gif" width=240px height=510px >
 
 
 ## 実装予定の機能
