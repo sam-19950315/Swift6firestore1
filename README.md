@@ -28,8 +28,8 @@
 <img src="https://user-images.githubusercontent.com/77444865/129067516-f60245f7-05c2-4304-abb0-a6ec6337699e.png" width=240px height=510px ><img src="https://user-images.githubusercontent.com/77444865/129066442-e9d1a6b6-7184-4f88-a113-9fc200918ac0.png" width=240px height=510px >
 * 子どもがログイン
 
-<img src="hhttps://user-images.githubusercontent.com/77444865/129066376-d65955df-94ef-4a22-9c5b-cad9e072d1b2.png" width=240px height=510px >
-<img src="https://user-images.githubusercontent.com/77444865/129066426-1754547c-a8b8-4542-91d2-2c6e6b323c05.png" width=240px height=510px >
+<img src="https://user-images.githubusercontent.com/77444865/129067720-598fc5ae-efe6-4920-9be3-95b4f18d6ea6.png" width=240px height=510px >
+<img src="https://user-images.githubusercontent.com/77444865/129067874-763b32a9-bc70-443e-96e4-3355330214ed.png" width=240px height=510px >
 
 
 
