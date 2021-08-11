@@ -26,7 +26,7 @@
 * 親が会員登録
 <img src="https://user-images.githubusercontent.com/77444865/129076288-deb6bef8-3a4f-498d-9d67-ae43efaad586.gif" width=240px height=510px >
 * 子どもがログイン(ログイン情報を間違えると、アラートが出る)
-<img src="https://user-images.githubusercontent.com/77444865/129076453-9cf50b02-6777-4059-adfa-c9ba0a38998b.gif" width=240px height=510px >
+<img src="https://user-images.githubusercontent.com/77444865/129077477-b45080e4-8223-4b1f-b3ec-c82ec380ddc7.gif" width=240px height=510px >
 <img src="https://user-images.githubusercontent.com/77444865/129076545-eb91a9b6-dd61-448a-937a-8dc966d52a73.gif" width=240px height=510px >
 
 * ログイン後のページ(子どもが興味のあるクイズを自分で取捨選択して答える)
