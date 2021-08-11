@@ -32,6 +32,9 @@
 
 * ログイン後のページ(子どもが興味のあるクイズを自分で取捨選択して答える)
 <img src="https://user-images.githubusercontent.com/77444865/129068269-6ab6750b-056d-4971-982e-6056bdd7ac4b.png" width=240px height=510px >
+* 家の絵をタップ
+<img src="https://user-images.githubusercontent.com/77444865/129068827-54f73b1f-b11a-43a6-bb31-d4d7d95bcf7d.png" width=240px height=510px >
+
 
 
 * 解答を見て、面白いと思ったらスターボタンを押す。（面白いと思った感情のままに何回でも押せる） 
