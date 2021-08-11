@@ -24,34 +24,18 @@
 # 実装した機能の説明
 
 * 親が会員登録
-
-<img src="https://user-images.githubusercontent.com/77444865/129067516-f60245f7-05c2-4304-abb0-a6ec6337699e.png" width=240px height=510px ><img src="https://user-images.githubusercontent.com/77444865/129066442-e9d1a6b6-7184-4f88-a113-9fc200918ac0.png" width=240px height=510px >
+<img src="https://user-images.githubusercontent.com/77444865/129076288-deb6bef8-3a4f-498d-9d67-ae43efaad586.gif" width=240px height=510px >
 * 子どもがログイン(ログイン情報を間違えると、アラートが出る)
-
-<img src="https://user-images.githubusercontent.com/77444865/129067720-598fc5ae-efe6-4920-9be3-95b4f18d6ea6.png" width=240px height=510px ><img src="https://user-images.githubusercontent.com/77444865/129067874-763b32a9-bc70-443e-96e4-3355330214ed.png" width=240px height=510px >
+<img src="https://user-images.githubusercontent.com/77444865/129076453-9cf50b02-6777-4059-adfa-c9ba0a38998b.gif" width=240px height=510px >
+<img src="https://user-images.githubusercontent.com/77444865/129076545-eb91a9b6-dd61-448a-937a-8dc966d52a73.gif" width=240px height=510px >
 
 * ログイン後のページ(子どもが興味のあるクイズを自分で取捨選択して答える)
-<img src="https://user-images.githubusercontent.com/77444865/129068269-6ab6750b-056d-4971-982e-6056bdd7ac4b.png" width=240px height=510px >
-* 家の絵をタップすると、家に関連する画像が出現!
-<img src="https://user-images.githubusercontent.com/77444865/129068827-54f73b1f-b11a-43a6-bb31-d4d7d95bcf7d.png" width=240px height=510px >
-* 庭の絵をタップすると庭に関するクイズが出現!
-<img src="https://user-images.githubusercontent.com/77444865/129069138-21470c42-c7a4-4b73-8391-422043d0ee9b.png" width=240px height=510px >
-* 気になるクイズをタップすると、クイズ回答ページが出現
-<img src="https://user-images.githubusercontent.com/77444865/129069694-c2f5dd67-6380-4747-94de-e677d79ffe8a.png" width=240px height=510px >
-* 正解と思うものをタップ(不正解の時)
-<img src="https://user-images.githubusercontent.com/77444865/129069876-4260646f-5ff9-4caa-8be3-1d2ad5674cfa.png" width=240px height=510px >
-* 正解と思うものをタップ(正解の時)
-<img src="23c8eba57fac1e80e89f2b6c1f685475.mp4" width=240px height=510px >
+<img src="https://user-images.githubusercontent.com/77444865/129076750-80ba4868-f876-49e5-ad52-00beba79acc3.gif" width=240px height=510px >
 
 * 解答を見て、面白いと思ったらスターボタンを押す。（面白いと思った感情のままに何回でも押せる） 
-
-* それぞれのクイズ内容に紐づいた興味分野に、誰が、スターボタンを合計何回押したのかをデータベースに記録。
-
-* ユーザーごとに、どの興味分野にどれだけスターボタンを押したかを集計し、グラフ化。
-
-* また、楽天ブックスのAPIを使用し、おすすめの本を提案する。
-
-* それを保護者が確認し、本の購入を検討する。
+<img src="https://user-images.githubusercontent.com/77444865/129076898-265925cc-d7d2-4a19-8d6f-08ed5f749498.gif" width=240px height=510px >
+* それぞれのクイズ内容に紐づいた興味分野に、誰が、スターボタンを合計何回押したのかをデータベースに記録し、集計。保護者に、子どもがどの分野に興味があるかグラフかしてお伝え。また、興味に紐づいた本を楽天BOOKSのAPIを使用し、提案する。
+<img src="https://user-images.githubusercontent.com/77444865/129077088-28c12128-eafc-4133-8af9-f7bcc0ed8b6c.gif" width=240px height=510px >
 
 
 ## 実装予定の機能
