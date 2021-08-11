@@ -2,6 +2,9 @@
 様々な分野のクイズを通して、自分の興味がある分野を発見できる。
 ![ParentsPage](https://user-images.githubusercontent.com/77444865/129061939-9832afc7-5dac-409e-b172-405c5f959999.png)
 
+<img src="https://user-images.githubusercontent.com/77444865/129061939-9832afc7-5dac-409e-b172-405c5f959999.png" width=10vw height=20vh >
+
+
 # 本アプリ作成への想い
 ## 目的
 受動的な学びから主体的な学びに変えるサービス
