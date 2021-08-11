@@ -41,7 +41,7 @@
 * 正解と思うものをタップ(不正解の時)
 <img src="https://user-images.githubusercontent.com/77444865/129069876-4260646f-5ff9-4caa-8be3-1d2ad5674cfa.png" width=240px height=510px >
 * 正解と思うものをタップ(正解の時)
-<img src="https://user-images.githubusercontent.com/77444865/129071459-518e8b41-8497-4778-9e06-11b66191174e.gif" width=240px height=510px >
+<img src="23c8eba57fac1e80e89f2b6c1f685475.mp4" width=240px height=510px >
 
 * 解答を見て、面白いと思ったらスターボタンを押す。（面白いと思った感情のままに何回でも押せる） 
 
