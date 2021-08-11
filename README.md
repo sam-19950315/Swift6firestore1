@@ -1,7 +1,7 @@
 # What's Your Dream?
 様々な分野のクイズを通して、自分の興味がある分野を発見できる。
 
-<img src="https://user-images.githubusercontent.com/77444865/129061939-9832afc7-5dac-409e-b172-405c5f959999.png" width=100px height=300px >
+<img src="https://user-images.githubusercontent.com/77444865/129061939-9832afc7-5dac-409e-b172-405c5f959999.png" width=80px height=170px >
 
 
 # 本アプリ作成への想い
