@@ -5,11 +5,7 @@
 
 # 開発環境
 
-* 使用言語:swift (version:5.4)
-* DB:FireBase
-* プロジェクト管理:git(version:2.30.1)
-* エディタ:xcode
-* その他:楽天BOOKSのAPI通信(JSON解析)
+* 使用言語:swift (version:5.4)* DB:FireBase* プロジェクト管理:git(version:2.30.1)* エディタ:xcode* その他:楽天BOOKSのAPI通信(JSON解析)
 
 # 実装した機能の説明
 
