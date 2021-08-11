@@ -25,7 +25,7 @@
 
 * 親が会員登録
 
-<img src="https://user-images.githubusercontent.com/77444865/129066343-b62a6ad0-e1b3-4451-b46b-324f732950a2.png" width=240px height=510px ><img src="https://user-images.githubusercontent.com/77444865/129066442-e9d1a6b6-7184-4f88-a113-9fc200918ac0.png" width=240px height=510px >
+<img src="https://user-images.githubusercontent.com/77444865/129067516-f60245f7-05c2-4304-abb0-a6ec6337699e.png" width=240px height=510px ><img src="https://user-images.githubusercontent.com/77444865/129066442-e9d1a6b6-7184-4f88-a113-9fc200918ac0.png" width=240px height=510px >
 * 子どもがログイン
 
 <img src="hhttps://user-images.githubusercontent.com/77444865/129066376-d65955df-94ef-4a22-9c5b-cad9e072d1b2.png" width=240px height=510px >
