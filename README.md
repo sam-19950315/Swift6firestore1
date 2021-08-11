@@ -1,6 +1,6 @@
 # What's Your Dream?
 様々な分野のクイズを通して、自分の興味がある分野を発見できる。
-<img width="1440" alt="tucktter_LP" src="https://user-images.githubusercontent.com/77444865/129043449-82b37b81-e09c-48d6-93f8-59886b825ea5.png">
+![ParentsPage](https://user-images.githubusercontent.com/77444865/129061939-9832afc7-5dac-409e-b172-405c5f959999.png)
 
 # 本アプリ作成への想い
 ## 目的
