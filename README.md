@@ -38,8 +38,10 @@
 <img src="https://user-images.githubusercontent.com/77444865/129069138-21470c42-c7a4-4b73-8391-422043d0ee9b.png" width=240px height=510px >
 * 気になるクイズをタップすると、クイズ回答ページが出現
 <img src="https://user-images.githubusercontent.com/77444865/129069694-c2f5dd67-6380-4747-94de-e677d79ffe8a.png" width=240px height=510px >
-* 正解と思うものをタップ(正解の時)
+* 正解と思うものをタップ(不正解の時)
 <img src="https://user-images.githubusercontent.com/77444865/129069876-4260646f-5ff9-4caa-8be3-1d2ad5674cfa.png" width=240px height=510px >
+* 正解と思うものをタップ(正解の時)
+<img src="https://gyazo.com/d7833d8b9b05dc2df2ae474df38985d7" width=240px height=510px >
 * 解答を見て、面白いと思ったらスターボタンを押す。（面白いと思った感情のままに何回でも押せる） 
 
 * それぞれのクイズ内容に紐づいた興味分野に、誰が、スターボタンを合計何回押したのかをデータベースに記録。
